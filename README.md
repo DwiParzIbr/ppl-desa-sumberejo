@@ -88,9 +88,6 @@ Sistem ini selain menggunakan Laravel 10. Juga mengintegrasikan Framework Bootst
 - Upload and Update Images
   
 
-## Optimalisasi
-
-N+1 Problems
 
 ## Run Locally
 
