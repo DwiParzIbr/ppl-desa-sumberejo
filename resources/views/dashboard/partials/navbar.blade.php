@@ -6,14 +6,18 @@
         -o-transition: all 0.6s ease-out;
         -ms-transition: all 0.6s ease-out;
         transition: all 0.6s ease-out;
-        background: rgb(6, 71, 8);
+        background: rgb(7, 102, 173);
     }
+    .btn-success {
+            background-color: rgb(41, 173, 178)!important; /* Tambahkan !important untuk memastikan overide */
+        }
+
 </style>
 <nav class="navbar navbar-dark navbar-expand-md py-3"
     style="font-family: 'Epilogue', sans-serif;padding-left: 35px;padding-right: 35px;" onscroll="checkScroll()">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="/">
-            <img src="{{ asset('storage/images/logo.png') }}" alt="Logo" width="230" height="44"
+            <img src="{{ asset('storage/images/logo4.png') }}" alt="Logo" width="230" height="44"
                 class=""></a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span
                 class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -43,7 +47,7 @@
                     <ul class="dropdown-menu">
                         <form action="/logout" method="post">
                             @csrf
-                            <li><button type="submit" class="dropdown-item">
+                            <li><button type="submit" class="btn btn-danger dropdown-item">
                                     Keluar
                                 </button></li>
                         </form>

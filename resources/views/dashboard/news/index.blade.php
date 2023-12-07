@@ -149,7 +149,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -222,11 +222,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213);
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>

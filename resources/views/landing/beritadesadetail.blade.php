@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
         @keyframes blink {
@@ -257,11 +257,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -286,8 +286,8 @@
             </div>
             <div class="row">
                 <div class="col-md-9 col-sm-12">
-                    <h2 style="color:#064708;"><b>{{ $news->judul }}</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>{{ $news->judul }}</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     <div class="row" style="text-align: justify;text-justify: inter-word;">
                         <div class="col-3">
@@ -347,14 +347,14 @@
                                         <g id="SVGRepo_iconCarrier">
                                             <path
                                                 d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-                                                stroke="#064708" stroke-width="2" stroke-linecap="round"
+                                                stroke="rgb(7, 102, 173)" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round"></path>
                                         </g>
                                     </svg></i></button>
                             </div>
                         </form>
                         <br>
-                        <h6 style="color:#064708;"><b>Kategori</b></h6>
+                        <h6 style="color:rgb(7, 102, 173);"><b>Kategori</b></h6>
                         <div class="list-group">
                             @foreach ($categories as $category)
                                 <a href="/berita-desa/category/{{ $category->id }}"

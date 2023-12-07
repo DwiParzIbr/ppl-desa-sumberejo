@@ -38,6 +38,7 @@ Route::get('/karang-taruna', [LandingController::class, 'karangtaruna']);
 
 // LAYANAN MASYARAKAT
 Route::get('/layanan-surat', [LandingController::class, 'layanansurat']);
+Route::get('/persyaratan-surat', [LandingController::class, 'persyaratansurat']);
 Route::get('/pengaduan-masyarakat', [LandingController::class, 'pengaduanmasyarakat']);
 Route::get('/pengaduan-wewenang', [LandingController::class, 'pengaduanwewenang']);
 
@@ -76,3 +77,8 @@ Route::resource('/dashboard/news', NewsController::class)->middleware('auth');
 Route::resource('/dashboard/kategori', KategoriController::class)->middleware('auth');
 //MANAJEMEN PENGUMUMAN
 Route::resource('/dashboard/announce', AnnounceController::class)->middleware('auth');
+
+// NEWEST
+
+//MANAJEMEN WISATA
+Route::resource('/dashboard/wisata', AnnounceController::class)->middleware('auth');

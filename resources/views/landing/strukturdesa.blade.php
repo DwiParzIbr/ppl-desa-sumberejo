@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -257,11 +257,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(7, 102, 173);
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -293,11 +293,11 @@
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Struktur Organisasi Perangkat Desa Sumber Rejo</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Struktur Organisasi Perangkat Desa Sumber Rejo</b></h2>
+                    <hr style="border: 1px solid rgb(7, 102, 173);
                     border-radius: 5px;">
                     {{-- image/namafile.ekstensi --}}
-                    <img src="" class="img-fluid rounded-start">
+                    <img src="{{ asset('storage/images/strukturdesa.jpg') }}" class="img-fluid rounded-start">
                 </div>
             </div>
         </div>

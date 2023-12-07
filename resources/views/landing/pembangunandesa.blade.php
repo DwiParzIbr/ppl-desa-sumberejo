@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 

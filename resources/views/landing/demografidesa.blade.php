@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -255,11 +255,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -282,10 +282,10 @@
                         </svg></a> / Demografi Desa
                 </div>
             </div>
-            <h2 style="color:#064708;"><b>Demografi Desa Sumber Rejo</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Demografi Desa Sumber Rejo</b></h2>
+            <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
-            {{-- <p style="text-align: justify">
+            <p style="text-align: justify">
                 <b>Demografi desa</b> adalah cabang dari ilmu demografi yang khusus mempelajari tentang populasi manusia di desa
                 atau pemukiman kecil. Ini berfokus pada analisis statistik dan karakteristik penduduk desa, termasuk
                 pertumbuhan populasi, distribusi usia, jenis kelamin, tingkat kelahiran dan kematian, migrasi, dan aspek
@@ -312,7 +312,7 @@
             </p>
             <p><b>Kondisi Demografi</b></p>
             <p>Jumlah Kepala Keluarga: 214 KK. (2023)
-            </p> --}}
+            </p>
         </div>
     </div>
 @endsection

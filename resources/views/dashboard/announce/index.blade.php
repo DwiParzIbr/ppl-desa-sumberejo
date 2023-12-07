@@ -149,7 +149,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -194,25 +194,6 @@
                 animation: none;
             }
 
-            @keyframes sequencePopup {
-
-                0%,
-                100% {
-                    content: "Selamat Datang!";
-                }
-
-                25% {
-                    content: "E-Learning Bank Bengkulu";
-                }
-
-                50% {
-                    content: "reader";
-                }
-
-                75% {
-                    content: "human";
-                }
-            }
 
             .typewriter::before {
                 content: "Selamat Datang!";
@@ -222,11 +203,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(57, 167, 255);
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>

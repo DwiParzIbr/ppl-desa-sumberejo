@@ -54,11 +54,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -83,8 +83,8 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <h2 style="color:#064708;"><b>Unduhan</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Unduhan</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     <table class="table table-hover table-responsive">
                         <thead>

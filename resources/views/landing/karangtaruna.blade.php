@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -258,11 +258,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -294,8 +294,8 @@
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Karang Taruna</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Karang Taruna</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     <table class="table table-hover table-responsive">
                         <thead>
@@ -314,40 +314,70 @@
                                 <td>G1A021092</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">2</th>
                                 <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <td>AFRIZA TRI RIZKI</td>
+                                <td>G1A021020</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <th scope="row">3</th>
+                                <td><b>SEKRETARIS</b></td>
+                                <td>ELISA</td>
+                                <td>G1A021008</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <th scope="row">5</th>
+                                <td><b>WAKIL SEKRETARIS</b></td>
+                                <td>ESTI ASMARETA AYU</td>
+                                <td>G1A021042</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <th scope="row">4</th>
+                                <td><b>BENDAHARA</b></td>
+                                <td>SEPRINA DWI CAHYANI</td>
+                                <td>G1A021012</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <th scope="row">6</th>
+                                <td><b>WAKIL BENDAHARA</b></td>
+                                <td>MARSHA HULWA INDRI MUTHI</td>
+                                <td>G1A021056</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><b>WAKIL KETUA KARANG TARUNA</b></td>
-                                <td>DWIFI PARIZZA IBRAHIM</td>
-                                <td>G1A021092</td>
+                                <th scope="row">7</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>FAJAR ADHITIA SUWANDHI</td>
+                                <td>G1A021086</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>PARULIAN AGUSTINUS HUTAPEA</td>
+                                <td>G1A021064</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>FAKHRI ALWAN</td>
+                                <td>G1A021050</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>MUHAMMAD FACHRUROZI</td>
+                                <td>G1A021018</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>M IQBAL NASMI</td>
+                                <td>G1A021094</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td><b>ANGGOTA</b></td>
+                                <td>AFZAL ALFARAZ</td>
+                                <td>G1A021098</td>
                             </tr>
                         </tbody>
                     </table>

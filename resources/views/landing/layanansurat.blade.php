@@ -170,37 +170,45 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -245,9 +253,7 @@
                 animation: none;
             }
 
-            @keyframes sequencePopup {
-
-            }
+            @keyframes sequencePopup {}
 
             .typewriter::before {
                 content: "Selamat Datang!";
@@ -257,11 +263,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -288,15 +294,18 @@
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
                         <a href="/layanan-surat" class="list-group-item list-group-item-action">Layanan Surat</a>
+                        <a href="/persyaratan-surat" class="list-group-item list-group-item-action">Persyaratan Surat</a>
                     </div>
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Layanan Surat Menyurat Desa Sumber Rejo</b></h2>
+                    <h2 style="color:rgb(7, 102, 173);"><b>Layanan Surat Menyurat Desa Sumber Rejo</b></h2><br>
+                    <h6>Unduh template surat yang ingin anda ajukan kepada perangkat desa, kemudian edit dan isikan bagian-bagian yang diperlukan.</h6>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             {{-- BAGIAN SURAT --}}
-                            <hr style="border: 1px solid green;
+                            <hr
+                                style="border: 1px solid rgb(87, 142, 206);
                             border-radius: 5px;">
                             <table class="table table-hover table-responsive">
                                 <thead>
@@ -309,7 +318,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    {{-- <tr>
                                         <th scope="row">1</th>
                                         <td><b>Laporan Asset BUMDes 2018</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
                                         <td>PDF</td>
@@ -330,17 +339,20 @@
                                                 </svg>Download
                                             </a>
                                         </td>
-                                    </tr>
+                                    </tr> --}}
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td><b>Laporan Asset BUMDes 2018</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <td><b>SURAT BIODATA PENDUDUK</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px" viewBox="0 0 24 24"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
                                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
                                                     </g>
                                                     <g id="SVGRepo_iconCarrier">
                                                         <g id="Interface / Download">
@@ -354,15 +366,18 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td><b>Laporan Asset BUMDes 2018</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <th scope="row">2</th>
+                                        <td><b>SURAT DOMISILI USAHA NON WARGA</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px" viewBox="0 0 24 24"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
                                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
                                                     </g>
                                                     <g id="SVGRepo_iconCarrier">
                                                         <g id="Interface / Download">
@@ -376,19 +391,540 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td><b>Laporan Asset BUMDes 2018</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <th scope="row">3</th>
+                                        <td><b>SURAT IZIN KERAMAIAN</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px" viewBox="0 0 24 24"
-                                                    fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
                                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
                                                     </g>
                                                     <g id="SVGRepo_iconCarrier">
                                                         <g id="Interface / Download">
                                                             <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td><b>SURAT IZIN ORANG TUA SUAMI</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td><b>SURAT JALAN</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td><b>SURAT KETERANGAN BEDA IDENTITAS KIK</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td><b>SURAT KETERANGAN BEDA NAMA</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td><b>SURAT KETERANGAN CATATAN KRIMINAL</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td><b>SURAT KETERANGAN DOMISILI</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td><b>SURAT KETERANGAN DOMISILI USAHA WARGA</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td><b>SURAT KETERANGAN JAMKESOS</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td><b>SURAT KETERANGAN JUAL BELI</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td><b>SURAT KETERANGAN KEHILANGAN</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td><b>SURAT KETERANGAN KELAHIRAN</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td><b>SURAT KETERANGAN KEMATIAN</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td><b>SURAT KETERANGAN KEPEMILIKAN KENDARAAN</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN KEPEMIILIKAN TANAH</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN KTP DALAM PROSES</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN TIDAK MAMPU</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN KELAHIRAN MATI</b><br>Laporan Asset selama 2018 awal hingga
+                                            akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN NIKAH</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN NIKAH NON MUSLIM</b><br>Laporan Asset selama 2018 awal
+                                            hingga akhir.</td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </g>
+                                                </svg>Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td><b>SURAT KETERANGAN PENDUDUK</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        </td>
+                                        <td>PDF</td>
+                                        <td>34.78 KB</td>
+                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
+                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    stroke="#000000">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                    </g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector"
+                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
                                                                 stroke="#ffffff" stroke-width="2" stroke-linecap="round"
                                                                 stroke-linejoin="round"></path>
                                                         </g>
@@ -401,7 +937,7 @@
                             </table>
                         </div>
                     </div>
-                    <hr style="border: 1px solid green;
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     {{-- image/namafile.ekstensi --}}
                     <img src="" class="img-fluid rounded-start">

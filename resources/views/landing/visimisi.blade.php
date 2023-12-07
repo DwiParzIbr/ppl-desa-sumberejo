@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -258,11 +258,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -285,8 +285,8 @@
                         </svg></a> / Visi dan Misi
                 </div>
             </div>
-            <h2 style="color:#064708;"><b>Visi dan Misi Desa Sumber Rejo</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Visi dan Misi Desa Sumber Rejo</b></h2>
+            <hr style="border: 1px solid rgb(7, 102, 173);
             border-radius: 5px;">
             <p><b>Visi dan Misi adalah impian, tuntunan dan arah bergeraknya masyarakat.</b></p>
             <p>Visi dan misi adalah dua komponen penting dalam perencanaan strategis sebuah organisasi, perusahaan, atau
@@ -294,8 +294,8 @@
                 mencapai kesuksesan organisasi.
             </p>
             <br>
-            <h2 style="color:#064708;"><b>Visi</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Visi</b></h2>
+            <hr style="border: 1px solid rgb(7, 102, 173);
                     border-radius: 5px;">
             <p>Visi merupakan pandangan jangka panjang atau cita-cita dari suatu organisasi. Ini adalah gambaran ideal
                 tentang masa depan yang diinginkan atau tujuan akhir yang ingin dicapai. Visi menggambarkan bagaimana
@@ -306,8 +306,8 @@
             <p>Terwujudnya masyarakat desa Sumber Rejo yang berakhlak mulia, sejahtera dan bermartabat dalam naungan
                 Pemerintah Desa yang demokratis dan amanah.
             </p>
-            <h2 style="color:#064708;"><b>Misi</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Misi</b></h2>
+            <hr style="border: 1px solid rgb(7, 102, 173);
             border-radius: 5px;">
             <p>Misi adalah pernyataan tentang tujuan inti organisasi, fokus operasional, dan alasan eksistensinya. Ini
                 menjelaskan apa yang ingin dicapai organisasi dalam jangka pendek atau menengah, dan bagaimana organisasi

@@ -170,37 +170,45 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -245,9 +253,7 @@
                 animation: none;
             }
 
-            @keyframes sequencePopup {
-
-            }
+            @keyframes sequencePopup {}
 
             .typewriter::before {
                 content: "Selamat Datang!";
@@ -257,11 +263,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -288,14 +294,55 @@
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
                         <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pelayanan Publik</a>
-                        <a href="#" class="list-group-item list-group-item-action">Penyalahgunaan Wewenang</a>
+                        <a href="/pengaduan-wewenang" class="list-group-item list-group-item-action">Penyalahgunaan
+                            Wewenang</a>
                     </div>
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Layanan Pengaduan Masyarakat Desa Sumber Rejo</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Layanan Pengaduan Masyarakat Desa Sumber Rejo</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                            ante.</p> <br>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                        </footer>
+                    </blockquote>
+                    <hr style="border: 1px solid rgb(87, 142, 206); border-radius: 5px;">
+
+                    {{--  --}}
+                    <dl class="row">
+                        <dt class="col-sm-3">Description lists</dt>
+                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                        <dt class="col-sm-3">Euismod</dt>
+                        <dd class="col-sm-9">
+                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                            <p>Donec id elit non mi porta gravida at eget metus.</p>
+                        </dd>
+
+                        <dt class="col-sm-3">Malesuada porta</dt>
+                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                            fermentum massa justo sit amet risus.</dd>
+
+                        <dt class="col-sm-3">Nesting</dt>
+                        <dd class="col-sm-9">
+                            <dl class="row">
+                                <dt class="col-sm-4">Nested definition list</dt>
+                                <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
+                                </dd>
+                            </dl>
+                        </dd>
+                        <a aria-label="Chat on WhatsApp"
+                            href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A"
+                            target="blank">
+                            <img style="width: 200px;" alt="Chat on WhatsApp" src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
+                        </a>
+                    </dl>
                     {{-- image/namafile.ekstensi --}}
                     <img src="" class="img-fluid rounded-start">
                 </div>

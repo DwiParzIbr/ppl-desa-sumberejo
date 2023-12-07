@@ -110,6 +110,20 @@ class LandingController extends Controller
         ]);
     }
 
+    public function persyaratansurat()
+    {
+        return view('landing.persyaratansurat', [
+            'active' => 'index',
+        ]);
+    }
+
+    public function pengaduanwewenang()
+    {
+        return view('landing.pengaduanwewenang', [
+            'active' => 'index',
+        ]);
+    }
+
 
     // AKHIR DARI TERBARU
 

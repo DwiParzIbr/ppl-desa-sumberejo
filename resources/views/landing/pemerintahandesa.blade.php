@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -258,11 +258,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -294,11 +294,11 @@
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Perangkat Desa</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Perangkat Desa</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     <table class="table table-hover table-responsive">
-                        {{-- <thead>
+                        <thead>
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Jabatan</th>
@@ -310,70 +310,70 @@
                             <tr>
                                 <th scope="row">1</th>
                                 <td><b>KEPALA DESA</b></td>
-                                <td>----</td>
+                                <td>SUGENG RIANTO</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
                                 <td><b>SEKRETARIS DESA</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td>PENDI, SKM</td>
+                                <td>1703192008910001</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td><b>KEPALA SEKSI PEMERINTAHAN</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KAUR Keuangan</b></td>
+                                <td>NOVIA ISTIQOMAH, S.IKom</td>
+                                <td>1703066211950001</td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
-                                <td><b>KEPALA SEKSI KESEJAHTERAAN</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KAUR Tata Usaha</b></td>
+                                <td>DEWI ENDAYANI</td>
+                                <td>1703064307870001</td>
                             </tr>
                             <tr>
                                 <th scope="row">5</th>
-                                <td><b>KEPALA SEKSI PELAYANAN</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KAUR Perencanaan</b></td>
+                                <td>FITRIAH</td>
+                                <td>1703066506940001</td>
                             </tr>
                             <tr>
                                 <th scope="row">6</th>
-                                <td><b>KEPALA URUSAN TATA USAHA UMUM</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KASI Pemerintahan</b></td>
+                                <td>RENGGO JENAR P. ST</td>
+                                <td>1703060906890001</td>
                             </tr>
                             <tr>
                                 <th scope="row">7</th>
-                                <td><b>KEPALA URUSAN KEUANGAN</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KASI Kesejahteraan</b></td>
+                                <td>YULIANTO</td>
+                                <td>1703061006750003</td>
                             </tr>
                             <tr>
                                 <th scope="row">8</th>
-                                <td><b>KEPALA URUSAN PERENCANAAN</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td><b>KASI Pelayanan</b></td>
+                                <td>SITI FATIMAH</td>
+                                <td>1703194408870001</td>
                             </tr>
                             <tr>
                                 <th scope="row">9</th>
                                 <td><b>KEPALA DUSUN I</b></td>
-                                <td>----</td>
+                                <td>DWI WITARTO, S.Pd</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">10</th>
                                 <td><b>KEPALA DUSUN II</b></td>
-                                <td>----</td>
-                                <td>-</td>
+                                <td>NANDAR SAPUTRA, S.IP</td>
+                                <td>1703190205900001</td>
                             </tr>
                             <tr>
                                 <th scope="row">11</th>
                                 <td><b>KEPALA DUSUN III</b></td>
-                                <td>----</td>
+                                <td>SRI REJEKI</td>
                                 <td>-</td>
                             </tr>
-                        </tbody> --}}
+                        </tbody>
                     </table>
                 </div>
             </div>

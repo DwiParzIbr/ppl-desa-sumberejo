@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -273,11 +273,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -300,21 +300,23 @@
                         </svg></a> / Geografi Desa
                 </div>
             </div>
-            <h2 style="color:#064708;"><b>Geografi Desa Sumber Rejo</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Geografi Desa Sumber Rejo</b></h2>
+            <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
-            {{-- <p>
+            <p>
                 Geografi desa adalah cabang dari ilmu geografi yang mempelajari tentang aspek-aspek geografis dari suatu
                 desa atau pemukiman kecil. Ini mencakup analisis berbagai elemen fisik dan manusia yang mempengaruhi dan
                 membentuk struktur dan karakteristik suatu desa.
             </p>
             <p><b>Kondisi Geografi</b></p>
-            <p>Luas Wilayah Desa: 398 m2.
-            </p>
+            <p>Tahun Pembentukan: 1969</p>
+            <p>Klasifikasi      : SWAKARYA</p>
+            <p>KategorI         : MULA</p>
+            <p>Luas Wilayah Desa: 398 m2.</p>
             <p>Batas Wilayah: (Utara) Desa Talang Pasak Bengkulu Utara</p>
             <p>Batas Wilayah: (Selatan) Desa Genting Dabuk</p>
             <p>Batas Wilayah: (Barat) Desa Tanjung Kepahyang</p>
-            <p>Batas Wilayah: (Timur) Desa Tiambang</p> --}}
+            <p>Batas Wilayah: (Timur) Desa Tiambang</p>
         </div>
     </div>
 @endsection

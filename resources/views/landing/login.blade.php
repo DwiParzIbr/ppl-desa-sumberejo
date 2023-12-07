@@ -57,8 +57,8 @@
     }
 
     .login-form .btn.btn-primary {
-        background: #064708 none repeat scroll 0 0;
-        border-color: #064708;
+        background: rgb(57, 167, 255) none repeat scroll 0 0;
+        border-color: rgb(57, 167, 255);
         color: #ffffff;
         font-size: 14px;
         width: 100%;
@@ -79,7 +79,7 @@
     }
 
     .login-form .btn.btn-primary.reset {
-        background: #064708 none repeat scroll 0 0;
+        background: rgb(7, 102, 173) none repeat scroll 0 0;
     }
 
     .back {

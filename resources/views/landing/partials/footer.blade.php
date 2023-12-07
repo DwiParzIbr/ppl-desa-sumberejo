@@ -1,5 +1,5 @@
 <footer class="text-white"
-    style="font-family: 'Epilogue', sans-serif;padding-left: 35px;padding-right: 35px;  background: rgb(6, 71, 8);">
+    style="font-family: 'Epilogue', sans-serif;padding-left: 35px;padding-right: 35px;  background: rgb(7, 102, 173);">
     <script src="https://unpkg.com/feather-icons"></script>
     <div class="container py-4 py-lg-5">
         <div class="row justify-content-center px-3">
@@ -7,7 +7,7 @@
                 class="col-lg-6 col-sm-text-center text-lg-start d-flex flex-column align-items-center  align-items-lg-start">
                 <div class="fw-bold d-flex align-items-center mb-2">
                     <a class="navbar-brand d-flex align-items-center" data-bss-hover-animate="pulse" href="/">
-                        <img src="{{ asset('storage/images/logo.png') }}" alt="Logo" width="230" height="48"
+                        <img src="{{ asset('storage/images/logo4.png') }}" alt="Logo" width="230" height="45"
                             class=""></a>
                 </div>
                 <p class="text-white" style="text-align: justify">Website Resmi Sumber Rejo, Kecamatan Hulu Palik, Kabupaten Bengkulu Utara.

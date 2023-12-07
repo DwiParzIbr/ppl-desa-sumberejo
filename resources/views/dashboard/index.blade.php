@@ -2,6 +2,12 @@
 
 @section('container')
     <style>
+        .bg-success {
+            background-color: rgb(41, 173, 178)!important; /* Tambahkan !important untuk memastikan overide */
+        }
+        /* .text-bg-success {
+            background-color: rgb(41, 173, 178)!important; /* Tambahkan !important untuk memastikan overide */
+
         /* Typewriter effect 1 */
         @keyframes typing {
 
@@ -149,7 +155,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -202,7 +208,7 @@
                 }
 
                 25% {
-                    content: "E-Learning Bank Bengkulu";
+                    content: "Website Desa Sumber Rejo";
                 }
 
                 50% {
@@ -222,11 +228,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213);
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -445,9 +451,95 @@
                                         <h4 class="fw-bold text-center">Manajemen Pengumuman</h4>
                                     </div>
                                 </div>
+                                <div class="row mb-3 g-2">
+                                    <!-- Existing code for Manajemen Data Pegawai -->
+                                    <!-- ... -->
+
+                                    <!-- Manajemen Data Petugas -->
+                                    <div class="col">
+                                        <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse">
+                                            <div class="d-flex justify-content-center align-items-center d-inline-block">
+                                                <svg width="70px" height="70px" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                                                    <!-- SVG content for the new management section -->
+                                                    <!-- ... -->
+                                                </svg>
+                                            </div>
+                                            <a href="/dashboard/new-management-1" class="stretched-link"></a>
+                                            <h4 class="fw-bold text-center">New Management 1</h4>
+                                        </div>
+                                    </div>
+
+                                    <!-- Manajemen Uji Kompetensi -->
+                                    <div class="col">
+                                        <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse">
+                                            <div class="d-flex justify-content-center align-items-center d-inline-block">
+                                                <svg width="70px" height="70px" viewBox="0 0 512 512" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
+                                                stroke="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>report-text</title>
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="add" fill="#ffffff"
+                                                            transform="translate(42.666667, 85.333333)">
+                                                            <path
+                                                                d="M341.333333,1.42108547e-14 L426.666667,85.3333333 L426.666667,341.333333 L3.55271368e-14,341.333333 L3.55271368e-14,1.42108547e-14 L341.333333,1.42108547e-14 Z M330.666667,42.6666667 L42.6666667,42.6666667 L42.6666667,298.666667 L384,298.666667 L384,96 L330.666667,42.6666667 Z M149.333333,234.666667 L149.333333,266.666667 L85.3333333,266.666667 L85.3333333,234.666667 L149.333333,234.666667 Z M341.333333,234.666667 L341.333333,266.666667 L192,266.666667 L192,234.666667 L341.333333,234.666667 Z M149.333333,170.666667 L149.333333,202.666667 L85.3333333,202.666667 L85.3333333,170.666667 L149.333333,170.666667 Z M341.333333,170.666667 L341.333333,202.666667 L192,202.666667 L192,170.666667 L341.333333,170.666667 Z M149.333333,106.666667 L149.333333,138.666667 L85.3333333,138.666667 L85.3333333,106.666667 L149.333333,106.666667 Z M341.333333,106.666667 L341.333333,138.666667 L192,138.666667 L192,106.666667 L341.333333,106.666667 Z"
+                                                                id="Combined-Shape"> </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            </div>
+                                            <a href="/dashboard/new-management-2" class="stretched-link"></a>
+                                            <h4 class="fw-bold text-center">New Management 2</h4>
+                                        </div>
+                                    </div>
+
+                                    <!-- Manajemen New 3 -->
+                                    <div class="col">
+                                        <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse">
+                                            <div class="d-flex justify-content-center align-items-center d-inline-block">
+                                                <svg width="70px" height="70px" viewBox="0 0 512 512" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
+                                                stroke="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>report-text</title>
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="add" fill="#ffffff"
+                                                            transform="translate(42.666667, 85.333333)">
+                                                            <path
+                                                                d="M341.333333,1.42108547e-14 L426.666667,85.3333333 L426.666667,341.333333 L3.55271368e-14,341.333333 L3.55271368e-14,1.42108547e-14 L341.333333,1.42108547e-14 Z M330.666667,42.6666667 L42.6666667,42.6666667 L42.6666667,298.666667 L384,298.666667 L384,96 L330.666667,42.6666667 Z M149.333333,234.666667 L149.333333,266.666667 L85.3333333,266.666667 L85.3333333,234.666667 L149.333333,234.666667 Z M341.333333,234.666667 L341.333333,266.666667 L192,266.666667 L192,234.666667 L341.333333,234.666667 Z M149.333333,170.666667 L149.333333,202.666667 L85.3333333,202.666667 L85.3333333,170.666667 L149.333333,170.666667 Z M341.333333,170.666667 L341.333333,202.666667 L192,202.666667 L192,170.666667 L341.333333,170.666667 Z M149.333333,106.666667 L149.333333,138.666667 L85.3333333,138.666667 L85.3333333,106.666667 L149.333333,106.666667 Z M341.333333,106.666667 L341.333333,138.666667 L192,138.666667 L192,106.666667 L341.333333,106.666667 Z"
+                                                                id="Combined-Shape"> </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            </div>
+                                            <a href="/dashboard/new-management-3" class="stretched-link"></a>
+                                            <h4 class="fw-bold text-center">New Management 3</h4>
+                                        </div>
+                                    </div>
+
+                                    <!-- Existing code for Manajemen Uji Kompetensi and other sections -->
+                                    <!-- ... -->
+                                </div>
+
                             </div>
                         </div>
                     </div>
+                    {{-- BATAS --}}
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="card bg-light bg-gradient shadow-sm sticky-top">
@@ -469,7 +561,7 @@
                                 </svg>
                             </div>
                             <h4 class="card-title fw-semibold text-center">{{ Auth()->user()->name }}</h4>
-                            <h6 class="text-muted card-subtitle fw-semibold text-center mb-2"><span
+                            <h6 class="text-muted card-subtitle fw-semibold text-center mb-2" style="color:rgb(7, 102, 173);" ><span
                                     class="badge badge-lg rounded-pill text-bg-warning"> <svg width="24px"
                                         height="24px" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">

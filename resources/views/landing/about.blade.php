@@ -170,37 +170,45 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
 
@@ -300,20 +308,22 @@
                         </svg></a> / Tentang Kami
                 </div>
             </div>
-            <h2 style="color:#064708;"><b>Tentang Sistem Informasi Desa Sumber Rejo</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Tentang Sistem Informasi Desa Sumber Rejo</b></h2>
+            <hr style="border: 1px solid rgb(7, 102, 173);
             border-radius: 5px;">
             <p><b>Mewujudkan Digitalisasi Media Informasi Desa melalui Sistem Informasi Desa Sumber Rejo</b></p>
             <p>Sistem Informasi Desa Sumber Rejo adalah wadah pengelolaan dan penyebaran informasi secara digital melalui
                 situs yang dapat diakses khalayak ramai. Website ini merangkum basis informasi desa seperti data geografi,
                 demografi, profil pemerintahan, berita, pengumuman desa dan sejenisnya. Website ini dikembangkan atas
-                kolaborasi antara Pemerintahan Desa Sumber Rejo dan Universitas Bengkulu melalui program proyek perangkat lunak
+                kolaborasi antara Pemerintahan Desa Sumber Rejo dan Universitas Bengkulu melalui program proyek perangkat
+                lunak
                 (PPL) dibawah naungan Dosen Pembimbing <b>Andang Wijanarko, S.Kom., M.Kom.</b> dengan pengusul dan
-                pelaksana program <b>Dwifi Parizza Ibrahim</b> dan <b>Afriza Tri Rizki</b> mahasiswa program studi Informatika.
+                pelaksana program <b>Dwifi Parizza Ibrahim</b> dan <b>Afriza Tri Rizki</b> mahasiswa program studi
+                Informatika.
             </p>
             <br>
-            <h2 style="color:#064708;"><b>Kantor</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Kantor</b></h2>
+            <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
             <div class="card">
                 <div class="card-body">
@@ -322,7 +332,7 @@
                         <tbody>
                             <tr>
                                 <td>Alamat</td>
-                                <td>Jalan Desa Sumber Rejo</td>
+                                <td>Jl. Lintas Arga Makmur - Lubuk Durian</td>
                             </tr>
                             <tr>
                                 <td>Kode Pos</td>
@@ -345,18 +355,17 @@
                 </div>
             </div>
             <br>
-            {{-- <h2 style="color:#064708;"><b>Kepala Desa</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Kepala Desa</b></h2>
+            <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
             <div class="container d-flex">
                 <div class="card p-3">
                     <div class="d-flex align-items-center w-100">
                         <div class="image p-3">
-                            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-                                class="rounded" width="155">
+                            <img src="{{ asset('storage/images/kades.jpg') }}" class="rounded" width="155">
                         </div>
                         <div class="ml-3">
-                            <h4 class="mb-0 mt-0">NAMA KEPALA DESA</h4>
+                            <h4 class="mb-0 mt-0">Sugeng Rianto</h4>
                             <span>Kepala Desa</span>
                             <div class="d-flex justify-content-start rounded-3 p-2 mb-2 w-100"
                                 style="background-color: #efefef;">
@@ -370,66 +379,76 @@
                 </div>
             </div>
             <br>
-            <h2 style="color:#064708;"><b>Pengembang Sistem</b></h2>
-            <hr style="border: 1px solid green;
+            <h2 style="color:rgb(7, 102, 173);"><b>Pengembang Sistem</b></h2>
+            <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
             <div class="container d-flex">
-                <div class="card p-3">
-                    <div class="d-flex align-items-center w-100">
-                        <div class="image p-3">
-                            <img src="{{ asset('storage/images/fariz.jpeg') }}" class="rounded" width="155">
-                        </div>
-                        <div class="ml-3">
-                            <h4 class="mb-0 mt-0">Dwifi Parizza Ibrahim</h4>
-                            <span>Informatika, Universitas Bengkulu</span>
-                            <div class="d-flex justify-content-start rounded-3 p-2 mb-2" style="background-color: #efefef;">
-                                <div class="pe-3">
-                                    <p class="small text-muted mb-1">NPM</p>
-                                    <p class="mb-0">G1A021092</p>
-                                </div>
+                <!-- Container 1 -->
+                <div class="container d-flex">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center w-100">
+                            <div class="image p-3">
+                                <img src="{{ asset('storage/images/fariz.jpeg') }}" class="rounded" width="155">
                             </div>
-                            <div class="d-flex justify-content-start rounded-3 p-2 mb-2" style="background-color: #efefef;">
-                                <div class="pe-3">
-                                    <p class="small text-muted mb-1">E-mail</p>
-                                    <p class="mb-0">dfarizibrahim14@gmail.com</p>
+                            <div class="ml-3">
+                                <h4 class="mb-0 mt-0">Dwifi Parizza Ibrahim</h4>
+                                <span>Informatika, Universitas Bengkulu</span>
+                                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                    style="background-color: #efefef;">
+                                    <div class="pe-3">
+                                        <p class="small text-muted mb-1">NPM</p>
+                                        <p class="mb-0">G1A021092</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex pt-1">
-                                <a href="https://www.linkedin.com/in/dwifi-parizza-ibrahim-00a504282/"
-                                    class="btn btn-outline-primary me-1 flex-grow-1">LinkedIn</a>
+                                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                    style="background-color: #efefef;">
+                                    <div class="pe-3">
+                                        <p class="small text-muted mb-1">E-mail</p>
+                                        <p class="mb-0">dfarizibrahim14@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex pt-1">
+                                    <a href="https://www.linkedin.com/in/dwifi-parizza-ibrahim-00a504282/"
+                                        class="btn btn-outline-primary me-1 flex-grow-1">LinkedIn</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="card p-3">
-                    <div class="d-flex align-items-center w-100">
-                        <div class="image p-3">
-                            <img src="{{ asset('storage/images/afriza.jpg') }}" class="rounded" width="155">
-                        </div>
-                        <div class="ml-3">
-                            <h4 class="mb-0 mt-0">Afriza Tri Rizki</h4>
-                            <span>Informatika, Universitas Bengkulu</span>
-                            <div class="d-flex justify-content-start rounded-3 p-2 mb-2" style="background-color: #efefef;">
-                                <div class="pe-3">
-                                    <p class="small text-muted mb-1">NPM</p>
-                                    <p class="mb-0">G1A021020</p>
-                                </div>
+                <!-- Container 2 -->
+                <div class="container d-flex ml-3">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center w-100">
+                            <div class="image p-3">
+                                <img src="{{ asset('storage/images/afriza.jpg') }}" class="rounded" width="155">
                             </div>
-                            <div class="d-flex justify-content-start rounded-3 p-2 mb-2" style="background-color: #efefef;">
-                                <div class="pe-3">
-                                    <p class="small text-muted mb-1">E-mail</p>
-                                    <p class="mb-0">@gmail.com</p>
+                            <div class="ml-3">
+                                <h4 class="mb-0 mt-0">Afriza Tri Rizki</h4>
+                                <span>Informatika, Universitas Bengkulu</span>
+                                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                    style="background-color: #efefef;">
+                                    <div class="pe-3">
+                                        <p class="small text-muted mb-1">NPM</p>
+                                        <p class="mb-0">G1A021020</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex pt-1">
-                                <a href="https://www.linkedin.com/in/"
-                                    class="btn btn-outline-primary me-1 flex-grow-1">LinkedIn</a>
+                                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                    style="background-color: #efefef;">
+                                    <div class="pe-3">
+                                        <p class="small text-muted mb-1">E-mail</p>
+                                        <p class="mb-0">@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex pt-1">
+                                    <a href="https://www.linkedin.com/in/"
+                                        class="btn btn-outline-primary me-1 flex-grow-1">LinkedIn</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </div>
 @endsection

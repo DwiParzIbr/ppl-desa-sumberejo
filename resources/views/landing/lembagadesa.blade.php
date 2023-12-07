@@ -200,7 +200,7 @@
             }
             98%,
             100% {
-                content: "Website Desa Sumber Rejo!";
+                content: "Website Desa Sumber Rejo";
             }
         }
         @keyframes blink {
@@ -257,11 +257,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213);
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -293,11 +293,11 @@
                     <br>
                 </div>
                 <div class="col-md-10 col-sm-12">
-                    <h2 style="color:#064708;"><b>Badan Pemusyawaratan Desa</b></h2>
-                    <hr style="border: 1px solid green;
+                    <h2 style="color:rgb(7, 102, 173);"><b>Badan Pemusyawaratan Desa</b></h2>
+                    <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     <table class="table table-hover table-responsive">
-                        {{-- <thead>
+                        <thead>
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Jabatan</th>
@@ -309,40 +309,40 @@
                             <tr>
                                 <th scope="row">1</th>
                                 <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td>JOKO SURIYO</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">1</th>
-                                <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td><b>WAKIL KETUA BPD</b></td>
+                                <td>ABDUL MUTHALIB</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">1</th>
-                                <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td><b>SEKRETARIS BPD</b></td>
+                                <td>SITI MARYAM</td>
                                 <td>KOMTOL</td>
                             </tr>
                             <tr>
                                 <th scope="row">1</th>
-                                <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td><b>BENDAHARA BPD</b></td>
+                                <td>MARWAH MULHIJJAH</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">1</th>
-                                <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td><b>ANGGOTA</b></td>
+                                <td>JOKO SUPOYONO</td>
                                 <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">1</th>
-                                <td><b>KETUA BPD</b></td>
-                                <td>Ading Alhijjah</td>
+                                <td><b>ANGGOTA</b></td>
+                                <td>RIZAL MAHARDIKA</td>
                                 <td>-</td>
                             </tr>
-                        </tbody> --}}
+                        </tbody>
                     </table>
                 </div>
             </div>

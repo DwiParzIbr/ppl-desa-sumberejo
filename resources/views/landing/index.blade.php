@@ -13,6 +13,9 @@
 
             background-image: url("{{ asset('storage/images/image1.png') }}");
         }
+        .bg-success {
+            background-color: rgb(7, 82, 140)!important; /* Tambahkan !important untuk memastikan overide */
+        }
     </style>
     <style>
         /* If the screen size is 1200px wide or more, set the font-size to 80px */
@@ -67,11 +70,11 @@
     </style>
     <style>
         a:hover {
-            color: #0e9313;
+            color: rgb(47, 154, 213)3;
         }
 
         a {
-            color: #064708;
+            color: rgb(7, 102, 173);
             text-decoration: none;
         }
     </style>
@@ -314,7 +317,7 @@
         <div class="m-md-5 m-sm-4 px-md-2 px-sm-0">
             <div class="row">
                 <div class="col-md-8 col-sm-12">
-                    <h4><a href="/berita-desa" style="text-decoration: none;">Berita <b>Terkini</b> <svg fill="#064708"
+                    <h4><a href="/berita-desa" style="text-decoration: none;">Berita <b>Terkini</b> <svg fill="rgb(7, 102, 173)"
                                 width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -326,7 +329,7 @@
                                     </path>
                                 </g>
                             </svg> </a></h4>
-                    <hr style="border: 1px solid green;
+                    <hr style="border: 1px solid rgb(7, 102, 173);
                     border-radius: 5px;">
                     @foreach ($newses as $news)
                         <div class="card mb-3" data-bss-hover-animate="pulse">
@@ -386,7 +389,7 @@
                     @endforeach
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h4><a href="/pengumuman" style="text-decoration: none;">Pengumuman <svg fill="#064708"
+                    <h4><a href="/pengumuman" style="text-decoration: none;">Pengumuman <svg fill="rgb(7, 102, 173)"
                                 width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -398,7 +401,7 @@
                                     </path>
                                 </g>
                             </svg> </a></h4>
-                    <hr style="border: 1px solid green;
+                    <hr style="border: 1px solid rgb(7, 102, 173);
                             border-radius: 5px;">
                     <div class="row g-2">
                         @foreach ($announces as $announce)
@@ -418,7 +421,7 @@
             <div class="row">
                 <div class="col-md-8 col-sm-12">
                     <h4><a href="/demografi-desa" style="text-decoration: none;">Demografi <b>Desa</b> <svg
-                                fill="#064708" width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
+                                fill="rgb(7, 102, 173)" width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -429,21 +432,21 @@
                                     </path>
                                 </g>
                             </svg> </a></h4>
-                    <hr style="border: 1px solid green; border-radius: 5px;">
+                    <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
                     <div class="row g-2 mb-3">
                         <div class="col-md-3 col-6">
-                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse">
-                                <div class="card-body">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body" >
                                     {{-- INI JUMLAH KK --}}
-                                    <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod totam suscipit aut repellat soluta pariatur quam magnam similique delectus id illum illo ea impedit iste libero omnis, facilis harum!</h4>
-                                    <h1 class="fw-bold mb-0">afakah mangsud</h1>
+                                    <h4 class="card-title" >Jumlah KK</h4>
+                                    <h1 class="fw-bold mb-0">255</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="#064708"
+                <div class="col-md-4 col-sm-12" style="color: rgb(7, 102, 173)">
+                    <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="rgb(7, 102, 173)"
                                 width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -455,8 +458,8 @@
                                     </path>
                                 </g>
                             </svg> </a></h4>
-                    <hr style="border: 1px solid green; border-radius: 5px;">
-                    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3785.594354425473!2d102.2729597544412!3d-3.4344189330318007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1700796577841!5m2!1sen!2sid"
+                    <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.5981709513303!2d102.26870827719519!3d-3.433456287622322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1701799450045!5m2!1sen!2sid"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
