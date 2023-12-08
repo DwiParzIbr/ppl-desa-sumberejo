@@ -73,9 +73,12 @@ Sistem ini selain menggunakan Laravel 10. Juga mengintegrasikan Framework Bootst
 
 ## Fitur Utama Pengguna
 
+- Manajemen User
 - Manajemen Berita
 - Manajemen Pengumuman
+- Manajemen Kategori Berita
 - Profil Desa
+- Informasi
 
 
 ## Fitur Sistem
