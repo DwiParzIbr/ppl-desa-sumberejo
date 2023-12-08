@@ -78,7 +78,7 @@ Sistem ini selain menggunakan Laravel 10. Juga mengintegrasikan Framework Bootst
 - Manajemen Pengumuman
 - Manajemen Kategori Berita
 - Profil Desa
-- Informasi
+- Informasi Tentang Desa
 
 
 ## Fitur Sistem
@@ -89,6 +89,7 @@ Sistem ini selain menggunakan Laravel 10. Juga mengintegrasikan Framework Bootst
 - Full CRUD Integrating
 - Authentication from Laravel
 - Upload and Update Images
+- Bootstrap 
   
 
 
