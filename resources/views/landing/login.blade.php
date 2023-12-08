@@ -7,9 +7,23 @@
         padding: 10px;
     }
 
+    img {
+        display: block;
+        /* Agar margin otomatis bekerja */
+        margin: 0 auto;
+        /* Pusatkan gambar */
+        max-height: 60px;
+        object-fit: cover;
+    }
+
     .form-heading {
         color: #fff;
         font-size: 23px;
+    }
+
+    .panel {
+        text-align: center;
+        /* Pusatkan teks di dalam panel */
     }
 
     .panel h2 {
@@ -32,28 +46,18 @@
         font-size: 14px;
         height: 50px;
         line-height: 50px;
+        width: 100%;
+        /* Responsif */
     }
 
     .main-div {
         background: #ffffff none repeat scroll 0 0;
         border-radius: 2px;
         margin: 10px auto 30px;
-        max-width: 38%;
-        padding: 50px 70px 70px 71px;
-    }
-
-    .login-form .form-group {
-        margin-bottom: 10px;
-    }
-
-    .login-form {
+        max-width: 50%;
+        /* Responsif */
+        padding: 50px;
         text-align: center;
-    }
-
-    .forgot a {
-        color: #777777;
-        font-size: 14px;
-        text-decoration: underline;
     }
 
     .login-form .btn.btn-primary {
@@ -61,38 +65,52 @@
         border-color: rgb(57, 167, 255);
         color: #ffffff;
         font-size: 14px;
-        width: 100%;
         height: 50px;
         line-height: 50px;
         padding: 0;
-    }
-
-    .forgot {
-        text-align: left;
-        margin-bottom: 30px;
-    }
-
-    .botto-text {
-        color: #ffffff;
-        font-size: 14px;
-        margin: auto;
-    }
-
-    .login-form .btn.btn-primary.reset {
-        background: rgb(7, 102, 173) none repeat scroll 0 0;
-    }
-
-    .back {
-        text-align: left;
-        margin-top: 10px;
+        width: 100%;
+        /* Responsif */
     }
 
     .back a {
         color: #444444;
         font-size: 13px;
         text-decoration: none;
+        display: block;
+        /* Menjamin tautan kembali menempati seluruh lebar div */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* Memberikan jarak di atas dan di bawah */
+    }
+
+    .botto-text {
+        color: #393939;
+        font-size: 14px;
+        text-align: center;
+        /* Pusatkan teks */
+    }
+
+    /* RESPONSIVE HP */
+    @media (max-width: 768px) {
+        .main-div {
+            max-width: 80%; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+            padding: 20px;
+        }
+
+        .login-form .form-control {
+            height: 40px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+            line-height: 40px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+            font-size: 12px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+        }
+
+        .login-form .btn.btn-primary {
+            height: 40px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+            line-height: 40px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+            font-size: 12px; /* Sesuaikan dengan kebutuhan responsif pada perangkat mobile */
+        }
     }
 </style>
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -116,8 +134,7 @@
         <div class="login-form">
             <div class="main-div">
                 <div class="panel">
-                    <img src="{{ asset('storage/images/logo_small.png') }}"
-                        style="max-height: 60px;object-fit: cover;">
+                    <img src="{{ asset('storage/images/logo_small.png') }}" style="max-height: 60px;object-fit: cover;">
                     <h2>Portal Administrator Sistem Informasi Desa Sumber Rejo</h2>
                     <p>Masukkan email dan password Anda.</p>
                     @if (session()->has('loginError'))
@@ -142,20 +159,22 @@
                 <form method="POST" action="/login">
                     @csrf
                     <div class="form-group">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Anda" name="email" required>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Anda"
+                            name="email" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password Anda"
-                            required>
+                        <input type="password" class="form-control" name="password" id="inputPassword"
+                            placeholder="Password Anda" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Masuk</button>
                     <br>
                     <br>
                 </form>
-                <a href="/">Kembali ></a>
+                <a href="/" style="text-align: center">Kembali ></a>
             </div>
             <p class="botto-text">Pemerintah Desa Sumber Rejo | Universitas Bengkulu</p>
         </div>
     </div>
 </body>
+
 </html>

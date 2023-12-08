@@ -94,7 +94,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight"
                         style="font-size: 14px; background-color: white; color: #000;">
-                        <li><a class="dropdown-item" href="/layanan-surat">Layanan Surat</a></li>
+                        <li><a class="dropdown-item" href="/layanan-surat">Surat Menyurat</a></li>
                         <li><a class="dropdown-item" href="/pengaduan-masyarakat">Pengaduan Masyarakat</a></li>
                     </ul>
                 </li>

@@ -294,7 +294,7 @@
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
                         <a href="/layanan-surat" class="list-group-item list-group-item-action">Layanan Surat</a>
-                        <a href="/persyaratan-surat" class="list-group-item list-group-item-action">Persyaratan Surat</a>
+                        <a href="/persyaratan-surat" class="list-group-item list-group-item-action">Persyaratan Pembuatan Surat</a>
                     </div>
                     <br>
                 </div>
