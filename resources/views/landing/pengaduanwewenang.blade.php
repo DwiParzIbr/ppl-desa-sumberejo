@@ -2,7 +2,6 @@
 
 @section('container')
     <style>
-
         /* If the screen size is 1200px wide or more, set the font-size to 80px */
         @media (min-width: 1200px) {
             .responsive-header {
@@ -171,34 +170,42 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
                 content: "Website Desa Sumber Rejo";
@@ -246,9 +253,7 @@
                 animation: none;
             }
 
-            @keyframes sequencePopup {
-
-            }
+            @keyframes sequencePopup {}
 
             .typewriter::before {
                 content: "Selamat Datang!";
@@ -288,8 +293,9 @@
             <div class="row">
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
-                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pelayanan Publik</a>
-                        <a href="/pengaduan-wewenang" class="list-group-item list-group-item-action">Penyalahgunaan Wewenang</a>
+                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pengaduan Publik</a>
+                        <a href="/pengaduan-wewenang" class="list-group-item list-group-item-action">Penyalahgunaan
+                            Wewenang</a>
                     </div>
                     <br>
                 </div>
@@ -309,7 +315,7 @@
                         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
                         </footer>
                     </blockquote>
-                      border-radius: 5px;">
+                    border-radius: 5px;">
                     {{--  --}}
                     <dl class="row">
                         <dt class="col-sm-3">Description lists</dt>
@@ -317,24 +323,33 @@
 
                         <dt class="col-sm-3">Euismod</dt>
                         <dd class="col-sm-9">
-                          <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                          <p>Donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                            <p>Donec id elit non mi porta gravida at eget metus.</p>
                         </dd>
 
                         <dt class="col-sm-3">Malesuada porta</dt>
                         <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
 
                         <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                            fermentum massa justo sit amet risus.</dd>
 
                         <dt class="col-sm-3">Nesting</dt>
                         <dd class="col-sm-9">
-                          <dl class="row">
-                            <dt class="col-sm-4">Nested definition list</dt>
-                            <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
-                          </dl>
+                            <dl class="row">
+                                <dt class="col-sm-4">Nested definition list</dt>
+                                <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
+                                </dd>
+                            </dl>
                         </dd>
-                      </dl>
+                    </dl>
+                    <a aria-label="Chat on WhatsApp"
+                        href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A"
+                        target="blank">
+                        <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
+                            src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
+                    </a>
+
                     {{-- image/namafile.ekstensi --}}
                     <img src="" class="img-fluid rounded-start">
                 </div>

@@ -297,7 +297,7 @@
                     <hr style="border: 1px solid rgb(7, 102, 173);
                     border-radius: 5px;">
                     {{-- image/namafile.ekstensi --}}
-                    <img src="{{ asset('storage/images/strukturdesa.jpg') }}" class="img-fluid rounded-start">
+                    <img src="{{ asset('storage/images/strukturdesa.png') }}" class="img-fluid rounded-start">
                 </div>
             </div>
         </div>

@@ -293,7 +293,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
-                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pelayanan Publik</a>
+                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pengaduan Publik</a>
                         <a href="/pengaduan-wewenang" class="list-group-item list-group-item-action">Penyalahgunaan
                             Wewenang</a>
                     </div>
@@ -340,7 +340,8 @@
                         <a aria-label="Chat on WhatsApp"
                             href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A"
                             target="blank">
-                            <img style="width: 200px;" alt="Chat on WhatsApp" src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
+                            <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
+                                src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
                         </a>
                     </dl>
                     {{-- image/namafile.ekstensi --}}
