@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('creator');
             $table->longText('berita');
             $table->string('thumbnail');
+            $table->string('kategori');
             $table->timestamps();
         });
     }

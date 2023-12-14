@@ -7,6 +7,7 @@ use App\Http\Controllers\PenggunaController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\AnnounceController;
+use App\Http\Controllers\WisataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +45,9 @@ Route::get('/pengaduan-wewenang', [LandingController::class, 'pengaduanwewenang'
 
 // WISATA DESA
 Route::get('/wisata-desa', [LandingController::class, 'wisatadesa']);
+Route::get('/wisata-desa/read/{wisata}', [LandingController::class, 'wisataadesa_detail']);
+Route::get('/wisata-desa/category/{category}', [LandingController::class, 'wisataadesa_cat']);
+Route::get('/wisata-desa/category/read/{wisata}', [LandingController::class, 'wisatadesa_detail']);
 
 //INFORMASI PUBLIK = BERITA-PENGUMUMAN-UNDUHAN-PRODUKHUKUM
 Route::get('/berita-desa', [LandingController::class, 'beritadesa']);
@@ -78,7 +82,11 @@ Route::resource('/dashboard/kategori', KategoriController::class)->middleware('a
 //MANAJEMEN PENGUMUMAN
 Route::resource('/dashboard/announce', AnnounceController::class)->middleware('auth');
 
-// NEWEST
-
 //MANAJEMEN WISATA
-Route::resource('/dashboard/wisata', AnnounceController::class)->middleware('auth');
+Route::resource('/dashboard/wisata', WisataController::class)->middleware('auth');
+
+
+// web.php
+
+
+

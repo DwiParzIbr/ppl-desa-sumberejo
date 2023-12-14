@@ -247,11 +247,6 @@
 
             @keyframes sequencePopup {
 
-                0%,
-                100% {
-                    content: "Selamat Datang!";
-                }
-
 
             }
 
@@ -292,7 +287,7 @@
             </div>
             <div class="row">
                 <div class="col-md-9 col-sm-12">
-                    <h2 style="color:rgb(7, 102, 173);"><b>Berita Desa</b></h2>
+                    <h2 style="color:rgb(7, 102, 173);"><b>Berita Desa | Kategori {{ $cat->nama }}</b></h2>
                     <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     @foreach ($wisatas as $wisata)
@@ -303,8 +298,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a
-                                                href="berita-desa/read/{{ $wisata->id }}">{{ $wisata->judul }}</a></h5>
+                                        <h5 class="card-title"><a href="read/{{ $wisata->id }}">{{ $wisata->judul }}</a>
+                                        </h5>
                                         <div class="row" style="text-align: justify;text-justify: inter-word;">
                                             <div class="col-4">
                                                 <p><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
@@ -343,7 +338,7 @@
                                             </div>
                                         </div>
                                         <p class="card-text">{!! \Illuminate\Support\Str::limit($wisata->berita, 150, $end = '...') !!} <a
-                                                href="berita-desa/read/{{ $wisata->id }}"><b>Selengkapnya ></b></a></p>
+                                                href="read/{{ $wisata->id }}"><b>Selengkapnya ></b></a></p>
                                         <p class="card-text"><small class="text-body-secondary">Last updated
                                                 {{ $wisata->created_at->diffForHumans() }}</small></p>
                                     </div>

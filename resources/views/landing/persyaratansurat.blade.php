@@ -294,7 +294,8 @@
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
                         <a href="/layanan-surat" class="list-group-item list-group-item-action">Layanan Surat</a>
-                        <a href="/persyaratan-surat" class="list-group-item list-group-item-action">Persyaratan Pembuatan Surat</a>
+                        <a href="/persyaratan-surat" class="list-group-item list-group-item-action">Persyaratan Pembuatan
+                            Surat</a>
                     </div>
                     <br>
                 </div>
@@ -322,13 +323,75 @@
                                     <p>Fotokopi Ijazah Terakhir (legalisir/ menunjukkan asli), apabila ada perubahan
                                         pendidikan.</p>
                                 </dd>
+                                <hr>
                                 <dt class="col-sm-3">Persyaratan Penerbitan KTP Elektronik</dt>
                                 <dd class="col-sm-9">
-                                    <dl class="row">
-                                        <dt class="col-sm-4">Fotokopi Krtu Keluarga (KK) dan menunjukkan yang asli;</dt>
-                                        <dd class="col-sm-8">KTP asli (bagi KTP rusak/ perubahan elemen data);</dd>
-                                        <dd class="col-sm-8">Surat keterangan kehilangan KTP dari Kepolisian apabila KTP asli hilang.</dd>
-                                    </dl>
+                                    <p>Fotokopi Krtu Keluarga (KK) dan menunjukkan yang asli</p>
+                                    <p>KTP asli (bagi KTP rusak/ perubahan elemen data);</p>
+                                    <p>Surat keterangan kehilangan KTP dari Kepolisian apabila KTP asli hilang.</p>
+                                </dd>
+                                <hr>
+                                <dt class="col-sm-3">Persyaratan Penerbitan Kartu Identitas Anak (KIA)</dt>
+                                <dd class="col-sm-9">
+                                    <p>Fotokopi akta kelahiran;</p>
+                                    <p>Fotokopi KK orang tua/ wali;</p>
+                                    <p>Fotokopi KTP-el kedua orang tua/ wali;</p>
+                                    <p>Untuk anak usia 5-17 tahun kurang satu hari dilampiri foto ukuran 4x6 (2 lembar),
+                                        (Tahun kelahiran ganjil background merah, Tahun kelahiran genap Background Biru).
+                                    </p>
+                                </dd>
+                                <hr>
+                                <dt class="col-sm-3">Persyaratan Penerbitan Akta Kelahiran</dt>
+                                <dd class="col-sm-9">
+                                    <p>Mengisi blanko permohonan yang ditandatangani pemohon dan 2 orang saksi;</p>
+                                    <p>Surat keterangan kelahiran (Asli) dari Desa;</p>
+                                    <p>Fotokopi surat nikah/ akta perkawinan/ akta perceraian orang tua (dilegalisir);</p>
+                                    <p>Fotokopi KK dan KTP orang tua;</p>
+                                    <p>Menghadirkan 2 orang saksi dan melampirkan fotokopiKTP asli;</p>
+                                    <p>Ditulis dengan huruf Cetak/ Balok;</p>
+                                    <p>Dilampiri fotokopi Ijazah apabila sudah punya Ijazah.</p>
+                                </dd>
+                                <hr>
+                                <dt class="col-sm-3">Persyaratan Penerbitan Akta Kematian</dt>
+                                <dd class="col-sm-9">
+                                    <p>Mengisi blanko permohonan yang ditandatangani pemohon dan 2 orang saksi;</p>
+                                    <p>Surat keterangan kematian dari Dokter;</p>
+                                    <p>KTP asli (alm)/ Kehilangan KTP dari Kepolisian;</p>
+                                    <p>Fotokopi KK (ada nama alm);;</p>
+                                    <p>Akta Kelahiran Asli (Alm) bagi yang sudah punya;</p>
+                                    <p>Menghadirkan 2 orang saksi dan melampirkan fotokopi KTP saksi;</p>
+                                    <p>Ditulis dengan huruf cetak/ balok.</p>
+                                </dd>
+                                <hr>
+                                <dt class="col-sm-3">Persyaratan Akta Perceraian</dt>
+                                <dd class="col-sm-9">
+                                    <p>Salinan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;</p>
+                                    <p>Kutipan akta perkawinan asli;</p>
+                                    <p>Fotokopi Kartu Keluarga (KK);</p>
+                                    <p>Fotokopi KTP.</p>
+                                </dd>
+                                <hr>
+                                <dt class="col-sm-3">Persyaratan Akta Perceraian</dt>
+                                <dd class="col-sm-9">
+                                    <p>Surat keterangan desa;</p>
+                                    <p>Surat keterangan status jejaka;</p>
+                                    <p>Fotokopi kutipan akta kelahiran;</p>
+                                    <p>Fotokopi KK;</p>
+                                    <p>Fotokopi KTP;</p>
+                                    <P>Fotokopi Ijazah terakhir;</P>
+                                    <p>Fotokopi surat pembaptisan/sidi/pemandian/;</p>
+                                    <p>Fotokopi surat pemberkatan nikah/peneguhan sakramen/pengesahan nikah dari pemuka
+                                        agama;</p>
+                                    <p>Surat keterangan sehat dan surat keterangan imunisasi TT;</p>
+                                    <p>Pas foto berdampingan berwarna ukuran 4x6 sebanyak 4 lembar;</p>
+                                    <p>Fotokopi KTP 2 orang saksi pencatatan perkawinan;</p>
+                                    <p>Fotokopi kedua kedua orang tua;</p>
+                                    <p>Fotokopi akta perceraian/Kematian bagi yang berstatus janda-duda;</p>
+                                    <p>Fotokopi dokumen warga Negara (Bagi WNI keturunan asing/WNI);</p>
+                                    <p>Surat ijin perkawinan dari Komandan bagi anggota TNI/Polri;</p>
+                                    <p>Mengisi formulir permohonan pencatatan perkawinan yang telah disediakan oleh Dinas
+                                        Kependudukan dan Pencatatan Sipil.</p>
+                                    <p>Surat Pernyataan</p>
                                 </dd>
                             </dl>
 

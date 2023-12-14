@@ -313,31 +313,31 @@
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">2</th>
                                 <td><b>WAKIL KETUA BPD</b></td>
                                 <td>ABDUL MUTHALIB</td>
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">3</th>
                                 <td><b>SEKRETARIS BPD</b></td>
                                 <td>SITI MARYAM</td>
                                 <td>KOMTOL</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">4</th>
                                 <td><b>BENDAHARA BPD</b></td>
                                 <td>MARWAH MULHIJJAH</td>
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">5</th>
                                 <td><b>ANGGOTA</b></td>
                                 <td>JOKO SUPOYONO</td>
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">6</th>
                                 <td><b>ANGGOTA</b></td>
                                 <td>RIZAL MAHARDIKA</td>
                                 <td>-</td>

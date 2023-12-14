@@ -293,7 +293,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-12">
                     <div class="list-group">
-                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pengaduan Publik</a>
+                        <a href="/pengaduan-masyarakat" class="list-group-item list-group-item-action">Pelayanan Publik</a>
                         <a href="/pengaduan-wewenang" class="list-group-item list-group-item-action">Penyalahgunaan
                             Wewenang</a>
                     </div>
@@ -303,46 +303,41 @@
                     <h2 style="color:rgb(7, 102, 173);"><b>Layanan Pengaduan Masyarakat Desa Sumber Rejo</b></h2>
                     <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
+                    <p>Berdasarkan Keputusan Menteri Pendayagunaan Aparatur Negara Nomor : KEP/118/M.PAN/8/2004 tentang
+                        Pedoman Umum Penanganan Pengaduan Masyarakat bagi Instansi Pemerintah, pengaduan masyarakat adalah
+                        bentuk penerapan dari pengawasan masyarakat yang disampaikan oleh masyarakat, baik secara lisan
+                        maupun tertulis kepada Aparatur Pemerintah terkait, berupa sumbangan pikiran, saran, gagasan atau
+                        keluhan/pengaduan yang bersifat membangun.</p>
+                    <br>
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                            ante.</p> <br>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                        <p class="mb-0">Kirimkan pengaduan yang anda terima kepada kami agar dapat kami tindak lanjuti dengan segera</p> <br>
+                        <footer class="blockquote-footer">Klik link di <cite title="Source Title"> bawah ini</cite>
                         </footer>
+                        <a aria-label="Chat on WhatsApp"
+                            href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A%0A"
+                            target="blank">
+                            <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
+                                src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
+                        </a>
                     </blockquote>
                     <hr style="border: 1px solid rgb(87, 142, 206); border-radius: 5px;">
 
                     {{--  --}}
                     <dl class="row">
-                        <dt class="col-sm-3">Description lists</dt>
-                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
 
-                        <dt class="col-sm-3">Euismod</dt>
-                        <dd class="col-sm-9">
-                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                            <p>Donec id elit non mi porta gravida at eget metus.</p>
-                        </dd>
 
-                        <dt class="col-sm-3">Malesuada porta</dt>
-                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                        <dt class="col-sm-3">Pengaduan Tipe Hijau</dt>
+                        <dd class="col-sm-9">dapat diselesaikan secara langsung (berupa rekomendasi) pada saat itu dan tidak menimbulkan kerugian yang berarti baik material maupun immaterial.</dd><br>
+                        <br>
+                        <dt class="col-sm-3">Pengajuan Tipe Kuning</dt>
+                        <dd class="col-sm-9">cenderung berhubungan dengan pemberitaan media massa dan berpotensi mengakibatkan kerugian material.</dd><br>
+                        <br>
+                        <dt class="col-sm-3">Pengajuan Tipe Merah</dt>
+                        <dd class="col-sm-9">cenderung berhubungan dengan hukum, polisi, pengadilan, kematian, mengancam sistem atau kelangsungan organisasi dan berpotensi mengakibatkan kerugian material.</dd><br>
 
-                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                            fermentum massa justo sit amet risus.</dd>
 
-                        <dt class="col-sm-3">Nesting</dt>
-                        <dd class="col-sm-9">
-                            <dl class="row">
-                                <dt class="col-sm-4">Nested definition list</dt>
-                                <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
-                                </dd>
-                            </dl>
-                        </dd>
-                        <a aria-label="Chat on WhatsApp"
-                            href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A"
-                            target="blank">
-                            <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
-                                src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
-                        </a>
+
+
                     </dl>
                     {{-- image/namafile.ekstensi --}}
                     <img src="" class="img-fluid rounded-start">

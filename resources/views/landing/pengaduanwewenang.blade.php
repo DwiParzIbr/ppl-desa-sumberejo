@@ -314,41 +314,43 @@
                         <p class="mb-0">Lapor penyalahgunaan wewenang kekuasaan kepada kami </p> <br>
                         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
                         </footer>
-                    </blockquote>
-                    border-radius: 5px;">
-                    {{--  --}}
-                    <dl class="row">
-                        <dt class="col-sm-3">Description lists</dt>
-                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+                        <a aria-label="Chat on WhatsApp"
+                            href="https://wa.me/6282278765076?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0A1.%20Nama%20lengkap%20(wajib):%0A%0A2.%20Alamat%20lengkap%20(wajib):%0A%0A3.%20Nomor%20identitas%20(KTP/SIM/Paspor)%20(wajib):%0A%0A4.%20Nomor%20telepon/handphone%20(wajib):%0A%0A5.%20Surat%20elektronik%20(email)%20(wajib):%0A%0A6.%20Nama%20pejabat%20yang%20melakukan%20penyalahgunaan%20wewenang:%0A%0A7.%20Jabatan%20pejabat%20yang%20melakukan%20penyalahgunaan%20wewenang:%0A%0A8.%20Penjelasan%20mengenai%20penyalahgunaan%20wewenang%20yang%20dilakukan:%0A%0A9.%20Unggah%20berkas%20bukti%20penyalahgunaan%20wewenang:%0A"
+                            target="_blank">
+                            <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
+                                src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
+                        </a>
+                    </blockquote> <hr>
 
-                        <dt class="col-sm-3">Euismod</dt>
+                    <p>Masyarakat dapat mengirimkan laporan pada menu TATA CARA PENYALAHGUNAAN
+                        WEWENANG dengan mengisi data diri dan ketentuan lain sesuai tata cara pemgaduan
+                        penyalahgunaan wewenang. Laporan pengaduan akan diverifikasi terlebih dahulu oleh
+                        administrator untuk kejelasan dan kelengkapan, dan selanjutnya diteruskan ke unit terkait
+                        paling lambat 3 hari kerja setelah pelaporan dilakukan.</p><br>
+                    <dl class="row">
+                        <dt class="col-sm-3">Tindak Lanjut Pelaporan</dt>
+                        <dd class="col-sm-9">PPID akan mempublikasikan setiap laporan yang sudah diteruskan sekaligus memberikan
+                            notifikasi kepada pelapor. Unit diberikan waktu paling lambat 5 hari kerja untuk melakukan
+                            koordinasi internal dan perumusan tindak lanjut dari pelaporan yang diberikan oleh
+                            masyarakat umum. Apabila sudah ada rumusan tindak lanjut, maka unit memberikan
+                            informasi kepada pelapor pada halaman tindak lanjut laporan.</dd>
+
+                        <dt class="col-sm-3">Penutupan Laporan</dt>
                         <dd class="col-sm-9">
-                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                            <p>Donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Laporan dianggap selesai apabila sudah terdapat tindak lanjut dari instansi pada laporan,
+                                dan telah berjalan 10 hari kerja setelah tindak lanjut dilakukan tanpa adanya balasan dari
+                                pelapor maupun administrator di halaman tindak lanjut.</p>
+
                         </dd>
 
                         <dt class="col-sm-3">Malesuada porta</dt>
                         <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
 
-                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                            fermentum massa justo sit amet risus.</dd>
 
-                        <dt class="col-sm-3">Nesting</dt>
-                        <dd class="col-sm-9">
-                            <dl class="row">
-                                <dt class="col-sm-4">Nested definition list</dt>
-                                <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
-                                </dd>
-                            </dl>
-                        </dd>
+
+
                     </dl>
-                    <a aria-label="Chat on WhatsApp"
-                        href="https://wa.me/6285366266050?text=Selamat%20Datang%20di%20Layanan%20Pengaduan%20Masyarakat%20Desa%20Sumber%20Rejo.%20Mohon%20isi%20data%20diri%20anda%20sebelum%20mengirimkan%20aduan%20kepada%20kami.%0A%0ANama%20%3A%0A%0ANIP%20%3A%0A%0AAlamat%20%3A%0A%0ANo%20Telepon%20%3A%0A%0APekerjaan%20%3A%0A%0AKeperluan%20%3A%0A%0AHal%20yang%20Ingin%20Diadukan%20%3A"
-                        target="blank">
-                        <img style="width: 200px;" data-bss-hover-animate="tada" alt="Chat on WhatsApp"
-                            src="{{ asset('storage/images/WhatsAppButtonGreenSmall.png') }}">
-                    </a>
+
 
                     {{-- image/namafile.ekstensi --}}
                     <img src="" class="img-fluid rounded-start">

@@ -136,13 +136,56 @@
                 </li>
                 <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
                         data-bss-hover-animate="pulse" href="/wisata-desa">DESTINASI WISATA</a></li>
-                <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
+                {{-- <a href="/login"
+                        class="btn btn-success btn-lg fs-5 fw-semibold rounded-pill shadow-sm me-2 py-2 px-4"
+                        type="button" style="width: 100.475px;height: 35.375px;" data-bss-hover-animate="tada">|| Mulai
+                </a> --}}
+                {{-- <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
                         data-bss-hover-animate="pulse" href="/login"> || MASUK</a>
-                </li>
+                </li> --}}
+
+                <a href="/login" class="btn btn-success btn-sm fs-8 fw-semibold rounded-pill shadow-sm me-2 py-2 px-3"
+                    type="button"
+                    style="font-size: 14px; width: 80px; height: 33.5px; background-color: rgb(7, 102, 173); color: rgb(255, 255, 255); text-shadow: 1px 1px 2px rgba(240, 0, 0, 0.5); border: 1.8px solid white;"
+                    data-bss-hover-animate="pulse">
+                    MASUK
+                </a>
+
+
+
+
             </ul>
         </div>
     </div>
 </nav>
+<script>
+    <!-- Pastikan Anda menyertakan library jQuery sebelum menggunakan script ini
+    -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Ambil warna latar belakang dari tombol
+        var backgroundColor = $('#myButton').css('background-color');
+
+        // Fungsi untuk mengecek apakah warna sama dengan rgb(7, 102, 173) dan mengubah warna teks jika iya
+        function checkAndChangeTextColor() {
+            if (backgroundColor === 'rgb(7, 102, 173)') {
+                $('#myButton').addClass('white-text');
+            } else {
+                $('#myButton').removeClass('white-text');
+            }
+        }
+
+        // Panggil fungsi saat dokumen dimuat dan saat ukuran layar berubah (jika perlu)
+        checkAndChangeTextColor();
+        $(window).resize(function() {
+            checkAndChangeTextColor();
+        });
+    });
+</script>
+
+</script>
 <script>
     /**
      * Listen to scroll to change header opacity class

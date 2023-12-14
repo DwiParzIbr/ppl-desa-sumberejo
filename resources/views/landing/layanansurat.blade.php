@@ -342,11 +342,11 @@
                                     </tr> --}}
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td><b>SURAT BIODATA PENDUDUK</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        <td><b>SURAT KETERANGAN PERNAH BEKERJA</b><br>Surat yang digunakan oleh masyarkat desa yang pernah bekerja sebagai perangkat desa.
                                         </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1BOed95L5-46aUEqwR7zy1miiKVJAlW6R/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -367,11 +367,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td><b>SURAT DOMISILI USAHA NON WARGA</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN DOMISILI</b><br>Surat yang digunakan untuk keperluan masyarakat desa.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="__blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -392,10 +391,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td><b>SURAT IZIN KERAMAIAN</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN JUAL BELI TANAH</b><br>Surat yang digunakan untuk keperluan jual / beli tanah.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1v4lF7wLtJx8vAqPABk14Ff6Ajjie3-jD/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -416,11 +415,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
-                                        <td><b>SURAT IZIN ORANG TUA SUAMI</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN KEMATIAN</b><br>Surat yang digunakan untuk menyatakan bahwa seseorang telah meninggal dunia.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="blank" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/12mYqgiwGBxXzLVvqzYhSsM8nqhlBkRwW/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -442,10 +440,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">5</th>
-                                        <td><b>SURAT JALAN</b><br>Laporan Asset selama 2018 awal hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN BELUM MENIKAH</b><br>Surat yang digunakan untuk seseorang belum pernah menikah pada saat surat tersebut diterbitkan.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1FU54AqlHW-Aj7SWtHdaOBBnNrJmwA5oK/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -467,11 +465,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">6</th>
-                                        <td><b>SURAT KETERANGAN BEDA IDENTITAS KIK</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN KELAHIRAN</b><br>Surat resmi yang menyatakan informasi mengenai kelahiran seseorang.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1p7HlNgdx1Nn5-lKDUT9GaoA7-wKKokIB/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -493,11 +490,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">7</th>
-                                        <td><b>SURAT KETERANGAN BEDA NAMA</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN KEWARGANEGARAAN INDONESIA</b><br>Surat yang memberikan informasi mengenai status kewarganegaraan seseorang sebagai warga negara Indonesia</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/16hpXVcGUS84fsTbhVfjugo-vFmRUGTui/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -519,11 +515,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
-                                        <td><b>SURAT KETERANGAN CATATAN KRIMINAL</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN BEDA NAMA</b><br>Surat yang digunakan menyatakan perubahan nama seseorang.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1xaPDYrN1l1HFe3l80X2akL3ctpDfH9lX/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -545,11 +540,11 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
-                                        <td><b>SURAT KETERANGAN DOMISILI</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        <td><b>SURAT KETERANGAN HAK KEPEMILIKAN KAPAL</b><br>memberikan bukti bahwa seseorang memiliki hak sah atas kepemilikan kapal.
                                         </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1pNzToMitWNDhar-iFhvmPUbrA5qQgv8P/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -571,11 +566,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
-                                        <td><b>SURAT KETERANGAN DOMISILI USAHA WARGA</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN DISABILITAS (CACAT)</b><br>Surat yang menyatakan bahwa seseorang tersebut disabilitas / cacat fisik.</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/15isNUEPNmTY36t1aRdxgv7X1HoG5MnMg/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -597,11 +591,11 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
-                                        <td><b>SURAT KETERANGAN JAMKESOS</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        <td><b>SURAT KETERANGAN PENGHASILAN ORANGTUA</b><br>Surat informasi mengenai pendapatan yang diterima oleh salah satu atau kedua orang tua seseorang.
                                         </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1guugcYW-V_QPzRUyofPTvQEnJrwsuiB8/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -623,11 +617,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
-                                        <td><b>SURAT KETERANGAN JUAL BELI</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN AHLI WARIS</b><br>Surat yang digunakan untuk ahli waris</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1p7HlNgdx1Nn5-lKDUT9GaoA7-wKKokIB/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -649,11 +642,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">13</th>
-                                        <td><b>SURAT KETERANGAN KEHILANGAN</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN JALAN TERBARU</b><br>Surat yang digunakna untuk keperluan laporan pembuatan jalan</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="/dashboard/profile" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -675,11 +667,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">14</th>
-                                        <td><b>SURAT KETERANGAN KELAHIRAN</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <td><b>SURAT KETERANGAN CERAI HIDUP</b><br>Surat yang menyatakan seseorang telah cerai dalam pernikahannya</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1xNmsYpdNtRSlT5og4dgMFTOeIGBvhWrg/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -701,11 +692,11 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">15</th>
-                                        <td><b>SURAT KETERANGAN KEMATIAN</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        <td><b>SURAT KETERANGAN CERAI MATI</b><br>Surat yang menyatakan bahwa seseorang telah cerai mati dalam pernikahannya
                                         </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1xaPDYrN1l1HFe3l80X2akL3ctpDfH9lX/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -727,11 +718,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
-                                        <td><b>SURAT KETERANGAN KEPEMILIKAN KENDARAAN</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN USAHA</b><br>Surat yang digunakan untuk mengajukan usaha bagi warga desa</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                        <td> <a href="https://docs.google.com/document/d/1OawZwyhqJxYZ-qSCDFF_PNbsOtzcKvau/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
                                                 data-bss-hover-animate="tada"><svg width="16px" height="16px"
                                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
@@ -753,186 +743,93 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN KEPEMIILIKAN TANAH</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <td><b>SURAT KETERANGAN KEPEMIILIKAN TANAH</b><br>Surat yang digunakan untuk kepemilikan tanah</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
+                                        <td> <button class="btn btn-success disabled" type="button" disabled>
+                                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>Download
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN KTP DALAM PROSES</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
+                                        <th scope="row">18</th>
+                                        <td><b>SURAT KETERANGAN KTP DALAM PROSES</b><br>Surat yang digunakan untuk pembuatan ktp dalam proses</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
+                                        <td> <button class="btn btn-success disabled" type="button" disabled>
+                                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>Download
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN TIDAK MAMPU</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <th scope="row">19</th>
+                                        <td><b>SURAT KETERANGAN KELAHIRAN MATI</b><br>Surat yang digunakan untuk kematian pada saat kelahiran</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
+                                        <td> <button class="btn btn-success disabled" type="button" disabled>
+                                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>Download
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN KELAHIRAN MATI</b><br>Laporan Asset selama 2018 awal hingga
-                                            akhir.</td>
+                                        <th scope="row">20</th>
+                                        <td><b>SURAT KETERANGAN NIKAH</b><br>Surat yang digunakan bahwa seseorang tersebut telah menikah
+                                        </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
+                                        <td> <button class="btn btn-success disabled" type="button" disabled>
+                                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>Download
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN NIKAH</b><br>Laporan Asset selama 2018 awal hingga akhir.
-                                        </td>
+                                        <th scope="row">21</th>
+                                        <td><b>SURAT KETERANGAN NIKAH NON MUSLIM</b><br>Surat yang digunakan oleh masyarakat sudah menikah non muslim</td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
+                                        <td> <button class="btn btn-success disabled" type="button" disabled>
+                                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                stroke="#000000">
+                                                <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>Download
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN NIKAH NON MUSLIM</b><br>Laporan Asset selama 2018 awal
-                                            hingga akhir.</td>
-                                        <td>PDF</td>
-                                        <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                    stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
-                                                </svg>Download
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">17</th>
-                                        <td><b>SURAT KETERANGAN PENDUDUK</b><br>Laporan Asset selama 2018 awal hingga akhir.
+                                        <th scope="row">22</th>
+                                        <td>
+                                            <b>SURAT KETERANGAN PENDUDUK</b><br>Surat keterangan kependudukan oleh kepala desa
                                         </td>
                                         <td>PDF</td>
                                         <td>34.78 KB</td>
-                                        <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
-                                                data-bss-hover-animate="tada"><svg width="16px" height="16px"
-                                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        <td>
+                                            <button class="btn btn-success disabled" type="button" disabled>
+                                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                                     stroke="#000000">
-                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                    </g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <g id="Interface / Download">
-                                                            <path id="Vector"
-                                                                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                                                                stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round"></path>
-                                                        </g>
-                                                    </g>
+                                                    <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>Download
-                                            </a>
+                                            </button>
                                         </td>
                                     </tr>
+
                                 </tbody>
                             </table>
                         </div>

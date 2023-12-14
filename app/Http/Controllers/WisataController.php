@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Wisata;
+use App\Models\Kategori;
 use App\Http\Requests\StoreWisataRequest;
 use App\Http\Requests\UpdateWisataRequest;
 use Illuminate\Support\Facades\Storage;
@@ -16,10 +17,11 @@ class WisataController extends Controller
     /**
      * Display a listing of the resource.
      */
+    
     public function index()
     {
-        return view('dashboard.wisatas.index', [
-            'active' => 'wisatas',
+        return view('dashboard.wisata.index', [
+            'active' => 'wisata',
             'wisatas' => Wisata::orderBy('judul', 'desc')
                 ->filter(request(['search']))
                 ->get(),
@@ -31,8 +33,9 @@ class WisataController extends Controller
      */
     public function create()
     {
-        return view('dashboard.wisatas.create', [
-            'active' => 'wisatas',
+        return view('dashboard.wisata.create', [
+            'active' => 'wisata',
+            'categories' => Kategori::get(),
         ]);
     }
 
@@ -42,14 +45,11 @@ class WisataController extends Controller
     public function store(StoreWisataRequest $request)
     {
         $validated = $request->validated();
-
-        if ($request->hasFile('thumbnail')) {
-            $validated['thumbnail'] = $request->file('thumbnail')->move(public_path() . '/images/', 'img_' . Str::random(15) . '.jpg');
-        }
-
+        $validated['thumbnail'] = $request->file('thumbnail');
+        $validated['thumbnail']->move(public_path() . '/images/', $img = 'img_' . Str::random(15) . '.jpg');
+        $validated['thumbnail'] = $img;
         Wisata::create($validated);
-
-        return redirect('/dashboard/wisatas')->with('success', 'Wisata telah ditambahkan!');
+        return redirect('/dashboard/wisata')->with('success', 'Wisata telah ditambahkan!');
     }
 
     /**
@@ -57,9 +57,10 @@ class WisataController extends Controller
      */
     public function show(Wisata $wisata)
     {
-        return view('dashboard.wisatas.preview', [
-            'active' => 'wisatas',
+        return view('dashboard.wisata.preview', [
+            'active' => 'wisata',
             'wisata' => $wisata,
+            'categories' => Kategori::get(),
         ]);
     }
 
@@ -68,9 +69,10 @@ class WisataController extends Controller
      */
     public function edit(Wisata $wisata)
     {
-        return view('dashboard.wisatas.edit', [
+        return view('dashboard.wisata.edit', [
             'wisata' => $wisata,
-            'active' => 'wisatas',
+            'active' => 'wisata',
+            'categories' => Kategori::get(),
         ]);
     }
 
@@ -81,21 +83,19 @@ class WisataController extends Controller
     {
         $validated = $request->validated();
 
-        if ($request->hasFile('thumbnail')) {
-            // Delete the old thumbnail
-            File::delete('images/' . $wisata->thumbnail);
-
-            // Move the new thumbnail to the images directory
-            $validated['thumbnail'] = $request->file('thumbnail')->move(public_path() . '/images/', 'img_' . Str::random(15) . '.jpg');
-        } else {
-            // If no new thumbnail provided, keep the existing one
+        if ($request->thumbnail == null) {
+            $validated = $request->validated();
             $validated['thumbnail'] = $wisata->thumbnail;
+            Wisata::where('id', $wisata->id)->update($validated);
+        } else {
+            File::delete('images/' . $wisata['thumbnail']);
+            $validated = $request->validated();
+            $validated['thumbnail'] = $request->file('thumbnail');
+            $validated['thumbnail']->move(public_path() . '/images/', $img = 'img_' . Str::random(15) . '.jpg');
+            $validated['thumbnail'] = $img;
+            Wisata::where('id', $wisata->id)->update($validated);
         }
-
-        // Update the wisata with the validated data
-        Wisata::where('id', $wisata->id)->update($validated);
-
-        return redirect('/dashboard/wisatas')->with('success', 'Wisata telah diubah!');
+        return redirect('/dashboard/wisata')->with('success', 'Wisata telah diubah!');
     }
 
     /**
@@ -105,6 +105,6 @@ class WisataController extends Controller
     {
         File::delete('images/' . $wisata->thumbnail);
         Wisata::destroy($wisata->id);
-        return redirect('/dashboard/wisatas')->with('success', 'Wisata telah dihapus!');
+        return redirect('/dashboard/wisata')->with('success', 'Wisata telah dihapus!');
     }
 }

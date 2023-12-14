@@ -451,12 +451,46 @@
                                         <h4 class="fw-bold text-center">Manajemen Pengumuman</h4>
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <div class="card text-white bg-success bg-gradient h-100"
+                                        data-bss-hover-animate="pulse">
+                                        <div class="d-flex justify-content-center align-items-center d-inline-block">
+                                            <!DOCTYPE svg
+                                                PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                            <div class="p-2 mt-1 mb-1">
+                                                <svg width="70px" height="70px" viewBox="0 0 512 512" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
+                                                stroke="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>report-text</title>
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="add" fill="#ffffff"
+                                                            transform="translate(42.666667, 85.333333)">
+                                                            <path
+                                                                d="M341.333333,1.42108547e-14 L426.666667,85.3333333 L426.666667,341.333333 L3.55271368e-14,341.333333 L3.55271368e-14,1.42108547e-14 L341.333333,1.42108547e-14 Z M330.666667,42.6666667 L42.6666667,42.6666667 L42.6666667,298.666667 L384,298.666667 L384,96 L330.666667,42.6666667 Z M149.333333,234.666667 L149.333333,266.666667 L85.3333333,266.666667 L85.3333333,234.666667 L149.333333,234.666667 Z M341.333333,234.666667 L341.333333,266.666667 L192,266.666667 L192,234.666667 L341.333333,234.666667 Z M149.333333,170.666667 L149.333333,202.666667 L85.3333333,202.666667 L85.3333333,170.666667 L149.333333,170.666667 Z M341.333333,170.666667 L341.333333,202.666667 L192,202.666667 L192,170.666667 L341.333333,170.666667 Z M149.333333,106.666667 L149.333333,138.666667 L85.3333333,138.666667 L85.3333333,106.666667 L149.333333,106.666667 Z M341.333333,106.666667 L341.333333,138.666667 L192,138.666667 L192,106.666667 L341.333333,106.666667 Z"
+                                                                id="Combined-Shape"> </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <a href="/dashboard/wisata" class="stretched-link"></a>
+                                        <h4 class="fw-bold text-center">Manajemen Wisata </h4>
+                                    </div>
+                                </div>
                                 <div class="row mb-3 g-2">
                                     <!-- Existing code for Manajemen Data Pegawai -->
                                     <!-- ... -->
 
                                     <!-- Manajemen Data Petugas -->
-                                    <div class="col">
+                                    {{-- <div class="col">
                                         <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse">
                                             <div class="d-flex justify-content-center align-items-center d-inline-block">
                                                 <svg width="70px" height="70px" viewBox="0 0 24 24" fill="none"
@@ -530,7 +564,7 @@
                                             <a href="/dashboard/new-management-3" class="stretched-link"></a>
                                             <h4 class="fw-bold text-center">New Management 3</h4>
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                     <!-- Existing code for Manajemen Uji Kompetensi and other sections -->
                                     <!-- ... -->

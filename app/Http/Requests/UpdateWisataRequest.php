@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
 
 class UpdateWisataRequest extends FormRequest
 {
@@ -11,7 +12,7 @@ class UpdateWisataRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return Auth::check();
     }
 
     /**
@@ -22,7 +23,11 @@ class UpdateWisataRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'judul' => 'required',
+            'creator' => 'required',
+            'berita' => 'required',
+            'thumbnail' => 'nullable|file',
+            'kategori' => 'required',
         ];
     }
 }

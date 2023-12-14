@@ -296,7 +296,7 @@
                         </p>
                         <a href="#scrollspyHeading2"
                             class="btn btn-warning btn-lg fs-5 fw-semibold rounded-pill shadow-sm me-2 py-2 px-4"
-                            type="button" style="width: 166.475px;height: 45.375px;" data-bss-hover-animate="tada">Mulai
+                            type="button" style="width: 150.475px;height: 40.375px;" data-bss-hover-animate="tada">Mulai
                             <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -379,7 +379,7 @@
                                             </div>
                                         </div>
                                         <p class="card-text">{!! \Illuminate\Support\Str::limit($news->berita, 150, $end = '...') !!} <a
-                                                href="berita-desa/read/0"><b>Selengkapnya ></b></a></p>
+                                                href="berita-desa/read/{{ $news->id }}"><b>Selengkapnya ></b></a></p>
                                         <p class="card-text"><small class="text-body-secondary">Last updated
                                                 {{ $news->created_at->diffForHumans() }}</small></p>
                                     </div>
@@ -403,7 +403,7 @@
                             </svg> </a></h4>
                     <hr style="border: 1px solid rgb(7, 102, 173);
                             border-radius: 5px;">
-                    <div class="row g-2">
+                    <div class="row g-3">
                         @foreach ($announces as $announce)
                             <div class="col-12">
                                 <div class="card text-white bg-success bg-gradient" data-bss-hover-animate="pulse">
@@ -433,17 +433,53 @@
                                 </g>
                             </svg> </a></h4>
                     <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
-                    <div class="row g-2 mb-3">
+                    <div class="row g-3 mb-3">
                         <div class="col-md-3 col-6">
-                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
-                                <div class="card-body" >
-                                    {{-- INI JUMLAH KK --}}
-                                    <h4 class="card-title" >Jumlah KK</h4>
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)" >
+                                <div class="card-body">
+                                    <h4 class="card-title">Jumlah KK</h4>
                                     <h1 class="fw-bold mb-0">255</h1>
+                                    {{-- <a href="/demografi-desa" class="stretched-link"></a> --}}
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-3 col-6">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body">
+                                    <h4 class="card-title">Tahun Pembentukan</h4>
+                                    <h1 class="fw-bold mb-0">1969</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body">
+                                    <h4 class="card-title">Klasifikasi</h4>
+                                    <h1 class="fw-bold mb-0">Swakarya</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body">
+                                    <h4 class="card-title">Kategori</h4>
+                                    <h1 class="fw-bold mb-0">Mula</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body">
+                                    <h4 class="card-title">Luas Wilayah</h4>
+                                    <h1 class="fw-bold mb-0">398 m2.</h1>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+
                 </div>
                 <div class="col-md-4 col-sm-12" style="color: rgb(7, 102, 173)">
                     <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="rgb(7, 102, 173)"
@@ -462,6 +498,57 @@
                     <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.5981709513303!2d102.26870827719519!3d-3.433456287622322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1701799450045!5m2!1sen!2sid"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                {{-- <div class="col-md-4 col-sm-12" style="color: rgb(7, 102, 173)">
+                    <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="rgb(7, 102, 173)"
+                                width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>play</title>
+                                    <path
+                                        d="M5.92 24.096q0 1.088 0.928 1.728 0.512 0.288 1.088 0.288 0.448 0 0.896-0.224l16.16-8.064q0.48-0.256 0.8-0.736t0.288-1.088-0.288-1.056-0.8-0.736l-16.16-8.064q-0.448-0.224-0.896-0.224-0.544 0-1.088 0.288-0.928 0.608-0.928 1.728v16.16z">
+                                    </path>
+                                </g>
+                            </svg> </a></h4>
+                    <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.5981709513303!2d102.26870827719519!3d-3.433456287622322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1701799450045!5m2!1sen!2sid"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12" style="color: rgb(7, 102, 173)">
+                    <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="rgb(7, 102, 173)"
+                                width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>play</title>
+                                    <path
+                                        d="M5.92 24.096q0 1.088 0.928 1.728 0.512 0.288 1.088 0.288 0.448 0 0.896-0.224l16.16-8.064q0.48-0.256 0.8-0.736t0.288-1.088-0.288-1.056-0.8-0.736l-16.16-8.064q-0.448-0.224-0.896-0.224-0.544 0-1.088 0.288-0.928 0.608-0.928 1.728v16.16z">
+                                    </path>
+                                </g>
+                            </svg> </a></h4>
+                    <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.5981709513303!2d102.26870827719519!3d-3.433456287622322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1701799450045!5m2!1sen!2sid"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12" style="color: rgb(7, 102, 173)">
+                    <h4><a href="/geografi-desa" style="text-decoration: none;">Geografi <b>Desa</b> <svg fill="rgb(7, 102, 173)"
+                                width="16px" height="16px" viewBox="0 0 32 32" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>play</title>
+                                    <path
+                                        d="M5.92 24.096q0 1.088 0.928 1.728 0.512 0.288 1.088 0.288 0.448 0 0.896-0.224l16.16-8.064q0.48-0.256 0.8-0.736t0.288-1.088-0.288-1.056-0.8-0.736l-16.16-8.064q-0.448-0.224-0.896-0.224-0.544 0-1.088 0.288-0.928 0.608-0.928 1.728v16.16z">
+                                    </path>
+                                </g>
+                            </svg> </a></h4>
+                    <hr style="border: 1px solid rgb(7, 102, 173); border-radius: 5px;">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.5981709513303!2d102.26870827719519!3d-3.433456287622322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31455387e6628b%3A0xed22743a1e279fba!2skantor%20desa%20sumber%20rejo!5e1!3m2!1sen!2sid!4v1701799450045!5m2!1sen!2sid"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> --}}
             </div>
         </div>
     </div>

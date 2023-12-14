@@ -313,10 +313,32 @@
             <p>Klasifikasi      : SWAKARYA</p>
             <p>KategorI         : MULA</p>
             <p>Luas Wilayah Desa: 398 m2.</p>
-            <p>Batas Wilayah: (Utara) Desa Talang Pasak Bengkulu Utara</p>
-            <p>Batas Wilayah: (Selatan) Desa Genting Dabuk</p>
-            <p>Batas Wilayah: (Barat) Desa Tanjung Kepahyang</p>
-            <p>Batas Wilayah: (Timur) Desa Tiambang</p>
+
+                <strong>Orbitasi</strong></p>
+
+                <ul>
+                    <li>Jarak ke Ibu Kota Kabupaten : 43 km</li>
+                    <li>Jarak ke Ibu Kota Kecamatan : 13 km</li>
+                    <li>Jarak ke Ibu Kota Propinsi : 15 km</li>
+                </ul>
+
+                <p><strong>Letak Geografis</strong></p>
+
+                <ul>
+                    <li>Desa Pematang Johar secara geografis terletak pada ketinggian &not;+ 0 &ndash; 25 m (dari Permukaan laut)</li>
+                    <li>Curah hujan : 0 - 30 mm / tahun</li>
+                    <li>Suhu rata &ndash; rata : 24 0C - 310 C</li>
+                    <li>Bentangan Wilayah : Dataran rendah</li>
+                </ul>
+
+                <p><strong>Batas Wilayah</strong></p>
+
+                <ul>
+                    <li>Sebelah Utara berbatasan dengan Sei Seruwei Kelurahan Sei Mati Kecamatan Medan Labuhan Kota Medan</li>
+                    <li>Sebelah Selatan berbatasan dengan Desa Saentis dan Desa Sampali Kecamatan Percut Sei Tuan Kabupaten Deli Serdang.</li>
+                    <li>Sebelah Timur berbatasan dengan Desa Tanjung Selamat Kec. Percut Sei Tuan</li>
+                    <li>Sebelah Barat berbatasan dengan Kel.Tangkahan Kecamatan Medan Labuhan Kota Medan dan Kelurahan Mabar Kec. Medan Deli&nbsp;Kota&nbsp;Medan.</li>
+                </ul>
         </div>
     </div>
 @endsection

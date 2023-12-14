@@ -170,34 +170,42 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
                 content: "Website Desa Sumber Rejo";
@@ -287,24 +295,48 @@
                                     d="M19.469 12.594l3.625 3.313c0.438 0.406 0.313 0.719-0.281 0.719h-2.719v8.656c0 0.594-0.5 1.125-1.094 1.125h-4.719v-6.063c0-0.594-0.531-1.125-1.125-1.125h-2.969c-0.594 0-1.125 0.531-1.125 1.125v6.063h-4.719c-0.594 0-1.125-0.531-1.125-1.125v-8.656h-2.688c-0.594 0-0.719-0.313-0.281-0.719l10.594-9.625c0.438-0.406 1.188-0.406 1.656 0l2.406 2.156v-1.719c0-0.594 0.531-1.125 1.125-1.125h2.344c0.594 0 1.094 0.531 1.094 1.125v5.875z">
                                 </path>
                             </g>
-                        </svg></a> / Berita Desa
+                        </svg></a> / Wisata Desa
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-9 col-sm-12">
-                    <h2 style="color:rgb(7, 102, 173);"><b>Berita Desa</b></h2>
+                    <h2 style="color:rgb(7, 102, 173);"><b>Wisata Desa</b></h2>
                     <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
-                    @foreach ($wisatas as $wisata)
+
+                    <ul class="list-unstyled">
+                        <li class="media">
+                          <img style="width: 400px; height: 300px;" class="mr-3" src="{{ asset('storage/images/mandiangin.jpg') }}" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </li>
+                        <li class="media my-4">
+                          <img style="width: 400px; height: auto;" class="mr-3" src="{{ asset('storage/images/curug-9.jpg') }}" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <img style="width: 400px; height: auto;" class="mr-3" src="{{ asset('storage/images/aerterjun.jpg') }}" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </li>
+                      </ul>
+                    {{-- @foreach ($newses as $news)
                         <div class="card mb-3" data-bss-hover-animate="pulse">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="{{ asset('images/' . $wisata->thumbnail) }}" class="img-fluid rounded-start">
+                                    <img src="{{ asset('images/' . $news->thumbnail) }}" class="img-fluid rounded-start">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title"><a
-                                                href="berita-desa/read/{{ $wisata->id }}">{{ $wisata->judul }}</a></h5>
+                                                href="berita-desa/read/{{ $news->id }}">{{ $news->judul }}</a></h5>
                                         <div class="row" style="text-align: justify;text-justify: inter-word;">
                                             <div class="col-4">
                                                 <p><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
@@ -324,7 +356,7 @@
                                                             <rect x="15" y="12" width="3"
                                                                 height="3" rx="0.5" fill="#000000"></rect>
                                                         </g>
-                                                    </svg> {{ $wisata->created_at }}
+                                                    </svg> {{ $news->created_at }}
                                                 </p>
                                             </div>
                                             <div class="col-8 float-left">
@@ -338,24 +370,24 @@
                                                                 d="M16.5 7.063C16.5 10.258 14.57 13 12 13c-2.572 0-4.5-2.742-4.5-5.938C7.5 3.868 9.16 2 12 2s4.5 1.867 4.5 5.063zM4.102 20.142C4.487 20.6 6.145 22 12 22c5.855 0 7.512-1.4 7.898-1.857a.416.416 0 0 0 .09-.317C19.9 18.944 19.106 15 12 15s-7.9 3.944-7.989 4.826a.416.416 0 0 0 .091.317z"
                                                                 fill="#000000"></path>
                                                         </g>
-                                                    </svg> {{ $wisata->creator }}
+                                                    </svg> {{ $news->creator }}
                                                 </p>
                                             </div>
                                         </div>
-                                        <p class="card-text">{!! \Illuminate\Support\Str::limit($wisata->berita, 150, $end = '...') !!} <a
-                                                href="berita-desa/read/{{ $wisata->id }}"><b>Selengkapnya ></b></a></p>
+                                        <p class="card-text">{!! \Illuminate\Support\Str::limit($news->berita, 150, $end = '...') !!} <a
+                                                href="berita-desa/read/{{ $news->id }}"><b>Selengkapnya ></b></a></p>
                                         <p class="card-text"><small class="text-body-secondary">Last updated
-                                                {{ $wisata->created_at->diffForHumans() }}</small></p>
+                                                {{ $news->created_at->diffForHumans() }}</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    @endforeach
+                    @endforeach --}}
                     <div class="row">
                         <div class="col">
-                            <div class="d-flex justify-content-center">
-                                {{ $wisatas->links() }}
-                            </div>
+                            {{-- <div class="d-flex justify-content-center">
+                                {{ $newses->links() }}
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -363,9 +395,9 @@
                     <div class="sticky-top">
                         <form action="/berita-desa">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Cari Berdasarkan Tajuk Berita"
-                                    name="search" value="{{ request('search') }}">
-                                <button class="btn btn-light" type="submit"><svg width="28px" height="28px"
+                                {{-- <input type="text" class="form-control" placeholder="Cari Berdasarkan Tajuk Berita"
+                                    name="search" value="{{ request('search') }}"> --}}
+                                {{-- <button class="btn btn-light" type="submit"><svg width="28px" height="28px"
                                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -375,17 +407,17 @@
                                                 stroke="rgb(7, 102, 173)" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round"></path>
                                         </g>
-                                    </svg></i></button>
+                                    </svg></i></button> --}}
                             </div>
                         </form>
                         <br>
-                        <h6 style="color:rgb(7, 102, 173);"><b>Kategori</b></h6>
+                        {{-- <h6 style="color:rgb(7, 102, 173);"><b>Kategori</b></h6>
                         <div class="list-group">
-                            @foreach ($categories as $category)
+                            {{-- @foreach ($categories as $category)
                                 <a href="/berita-desa/category/{{ $category->id }}"
                                     class="list-group-item list-group-item-action">{{ $category->nama }}</a>
                             @endforeach
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

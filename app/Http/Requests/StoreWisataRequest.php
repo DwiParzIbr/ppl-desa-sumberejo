@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
 
 class StoreWisataRequest extends FormRequest
 {
@@ -11,7 +12,7 @@ class StoreWisataRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return Auth::check();
     }
 
     /**
@@ -22,10 +23,11 @@ class StoreWisataRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'judul' => 'required|string|max:255',
-            'creator' => 'required|string|max:255',
-            'berita' => 'required|string',
-            'thumbnail' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'judul' => 'required',
+            'creator' => 'required',
+            'berita' => 'required',
+            'thumbnail' => 'file|required',
+            'kategori' => 'required',
         ];
     }
 }

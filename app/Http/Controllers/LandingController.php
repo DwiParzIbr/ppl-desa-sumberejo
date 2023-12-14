@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Wisata;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
@@ -22,7 +23,7 @@ class LandingController extends Controller
                 ->take(3)
                 ->get(),
             'announces' => Announce::latest()
-                ->take(5)
+                ->take(7)
                 ->get(),
         ]);
     }
@@ -138,6 +139,20 @@ class LandingController extends Controller
             'categories' => Kategori::get(),
         ]);
     }
+    //----------
+    public function wisataadesa()
+    {
+        return view('landing.wisatadesa', [
+            'active' => 'index',
+            'wisatas' => Wisata::orderBy('created_at', 'desc')
+                ->filter(request(['search']))
+                ->paginate(10)
+                ->withQueryString(),
+            'categories' => Kategori::get(),
+        ]);
+    }
+    //-------------
+
     public function beritadesa_cat(Kategori $category)
     {
         return view('landing.beritadesacat', [
@@ -151,6 +166,21 @@ class LandingController extends Controller
             'cat' => $category,
         ]);
     }
+    // awal
+    public function wisatadesa_cat(Kategori $category)
+    {
+        return view('landing.wisatadesacat', [
+            'active' => 'index',
+            'wisatas' => Wisata::where('kategori', $category->nama)
+                ->orderBy('created_at', 'desc')
+                ->filter(request(['search']))
+                ->paginate(10)
+                ->withQueryString(),
+            'categories' => Kategori::get(),
+            'cat' => $category,
+        ]);
+    }
+    // akhir
     public function pengumuman()
     {
         return view('landing.pengumuman', [
@@ -187,6 +217,16 @@ class LandingController extends Controller
             'categories' => Kategori::get(),
         ]);
     }
+    //  awal
+    public function wisatadesa_detail(Wisata $wisata)
+    {
+        return view('landing.wisatadesadetail', [
+            'wisata' => $wisata,
+            'active' => 'wisata',
+            'categories' => Kategori::get(),
+        ]);
+    }
+    // akhir
     public function pengumuman_detail(Announce $announce)
     {
         return view('landing.pengumumandetail', [

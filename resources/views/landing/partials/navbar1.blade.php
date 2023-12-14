@@ -113,10 +113,13 @@
                     </ul>
                 </li>
                 <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
-                    data-bss-hover-animate="pulse" href="/wisata-desa">DESTINASI WISATA</a></li>
-                <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
-                        data-bss-hover-animate="pulse" href="/login">|| MASUK</a></li>
-                </li>
+                        data-bss-hover-animate="pulse" href="/wisata-desa">DESTINASI WISATA</a></li>
+                <a href="/login" class="btn btn-success btn-sm fs-8 fw-semibold rounded-pill shadow-sm me-2 py-2 px-3"
+                    type="button"
+                    style="font-size: 14px; width: 80px; height: 33.5px; background-color: rgb(7, 102, 173); color: rgb(255, 255, 255); text-shadow: 1px 1px 2px rgba(240, 0, 0, 0.5); border: 1.8px solid white;"
+                    data-bss-hover-animate="pulse">
+                    MASUK
+                </a>
             </ul>
         </div>
     </div>
