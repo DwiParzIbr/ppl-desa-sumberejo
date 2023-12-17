@@ -136,13 +136,7 @@
                 </li>
                 <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
                         data-bss-hover-animate="pulse" href="/wisata-desa">DESTINASI WISATA</a></li>
-                {{-- <a href="/login"
-                        class="btn btn-success btn-lg fs-5 fw-semibold rounded-pill shadow-sm me-2 py-2 px-4"
-                        type="button" style="width: 100.475px;height: 35.375px;" data-bss-hover-animate="tada">|| Mulai
-                </a> --}}
-                {{-- <li class="nav-item fw-bold"><a class="nav-link {{ $active === 'index' ? 'active' : '' }}"
-                        data-bss-hover-animate="pulse" href="/login"> || MASUK</a>
-                </li> --}}
+               
 
                 <a href="/login" class="btn btn-success btn-sm fs-8 fw-semibold rounded-pill shadow-sm me-2 py-2 px-3"
                     type="button"

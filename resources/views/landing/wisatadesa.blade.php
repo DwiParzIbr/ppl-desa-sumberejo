@@ -287,12 +287,12 @@
                                     d="M19.469 12.594l3.625 3.313c0.438 0.406 0.313 0.719-0.281 0.719h-2.719v8.656c0 0.594-0.5 1.125-1.094 1.125h-4.719v-6.063c0-0.594-0.531-1.125-1.125-1.125h-2.969c-0.594 0-1.125 0.531-1.125 1.125v6.063h-4.719c-0.594 0-1.125-0.531-1.125-1.125v-8.656h-2.688c-0.594 0-0.719-0.313-0.281-0.719l10.594-9.625c0.438-0.406 1.188-0.406 1.656 0l2.406 2.156v-1.719c0-0.594 0.531-1.125 1.125-1.125h2.344c0.594 0 1.094 0.531 1.094 1.125v5.875z">
                                 </path>
                             </g>
-                        </svg></a> / Berita Desa
+                        </svg></a> / WisataDesa
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-9 col-sm-12">
-                    <h2 style="color:rgb(7, 102, 173);"><b>Berita Desa</b></h2>
+                    <h2 style="color:rgb(7, 102, 173);"><b>Wisata Desa</b></h2>
                     <hr style="border: 1px solid rgb(87, 142, 206);
                     border-radius: 5px;">
                     @foreach ($wisatas as $wisata)
@@ -304,7 +304,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title"><a
-                                                href="berita-desa/read/{{ $wisata->id }}">{{ $wisata->judul }}</a></h5>
+                                                href="wisata-desa/read/{{ $wisata->id }}">{{ $wisata->judul }}</a></h5>
                                         <div class="row" style="text-align: justify;text-justify: inter-word;">
                                             <div class="col-4">
                                                 <p><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
@@ -343,7 +343,7 @@
                                             </div>
                                         </div>
                                         <p class="card-text">{!! \Illuminate\Support\Str::limit($wisata->berita, 150, $end = '...') !!} <a
-                                                href="berita-desa/read/{{ $wisata->id }}"><b>Selengkapnya ></b></a></p>
+                                                href="wisata-desa/read/{{ $wisata->id }}"><b>Selengkapnya ></b></a></p>
                                         <p class="card-text"><small class="text-body-secondary">Last updated
                                                 {{ $wisata->created_at->diffForHumans() }}</small></p>
                                     </div>
@@ -361,7 +361,7 @@
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <div class="sticky-top">
-                        <form action="/berita-desa">
+                        <form action="/wisata-desa">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Cari Berdasarkan Tajuk Berita"
                                     name="search" value="{{ request('search') }}">
@@ -379,13 +379,13 @@
                             </div>
                         </form>
                         <br>
-                        <h6 style="color:rgb(7, 102, 173);"><b>Kategori</b></h6>
+                        {{-- <h6 style="color:rgb(7, 102, 173);"><b>Kategori</b></h6>
                         <div class="list-group">
                             @foreach ($categories as $category)
-                                <a href="/berita-desa/category/{{ $category->id }}"
+                                <a href="/wisata-desa/category/{{ $category->id }}"
                                     class="list-group-item list-group-item-action">{{ $category->nama }}</a>
                             @endforeach
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

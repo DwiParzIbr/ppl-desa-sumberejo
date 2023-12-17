@@ -16,7 +16,7 @@
             cursor: pointer;
         }
     </style>
-    <div class="px-md-5 px-sm-0 mx-5">
+    <div class=" px-md-5 px-sm-0 mx-5">
         <div class="mx-md-5 mx-sm-4 my-4 px-md-2 px-sm-0">
             <div class="card text-bg-light mb-3">
                 <div class="card-body">
@@ -39,7 +39,7 @@
                     <div class="card text-bg-success bg-gradient mb-3 bg-opacity-100">
                         <div class="card-header fw-semibold">Dashboard Sistem Informasi Desa Sumber Rejo</div>
                         <div class="card-body">
-                            <h4 class="responsive-p1 fw-semibold mb-3">Manajemen Wisata</h4>
+                            <h4 class=" responsive-p1 fw-semibold mb-3">Manajemen Wisata</h4>
                             @if ($errors->any())
                                 <div class="alert alert-danger">
                                     <ul>
@@ -58,26 +58,25 @@
                             </div>
                             <hr>
                             <form class="row g-2 responsive-small fw-semibold" method="post"
-                                action="/dashboard/wisata/{{ $wisata->id }}" enctype="multipart/form-data">
+                                action="/dashboard/wisatas/{{ $wisata->id }}" enctype="multipart/form-data">
                                 @method('put')
                                 @csrf
                                 <div class="row mb-3">
                                     <div class="col-md-5 position-relative">
-                                        <label for="validationCustom01" class="form-label ">Judul Wisata<span
-                                                class="text-danger">*</span></label>
+                                        <label for="validationCustom01" class="form-label ">Judul Berita<span class="text-danger">*</span></label>
                                         <input type="text" id="validationCustom01" class="form-control responsive-small"
-                                            name="judul" value="{{ old('judul', $wisata->judul) }}"
-                                            placeholder="Isi Judul Wisata" required>
+                                            name="judul" value="{{ old('judul', $wisata->judul) }}" placeholder="Isi Judul Berita" required>
                                     </div>
+
                                     <div class="col-md-4 position-relative">
-                                        <label for="validationCustom01" class="form-label">Penulis Wisata<span
+                                        <label for="validationCustom01" class="form-label">Penulis Berita<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" id="validationCustom01" class="form-control responsive-small"
                                             name="creator" value="{{ old('creator', $wisata->creator) }}"
-                                            placeholder="Isi Penulis Wisata" readonly>
+                                            placeholder="Isi Penulis Berita" readonly>
                                     </div>
                                     <div class="col-md-3">
-                                        <label for="validationCustom01" class="form-label">Kategori Wisata<span
+                                        <label for="validationCustom01" class="form-label">Kategori Berita<span
                                                 class="text-danger">*</span></label>
                                         <select class="form-select" name="kategori" aria-label="Default select example"
                                             required>
@@ -90,10 +89,10 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-md-9 position-relative">
-                                        <label for="validationCustom01" class="form-label">Thumbnail dan Header Wisata<span
+                                        <label for="validationCustom01" class="form-label">Thumbnail dan Header Berita<span
                                                 class="text-danger">*</span></label>
                                         <input type="file" id="validationCustom01" class="form-control responsive-small"
-                                            name="thumbnail" accept="image/*" placeholder="Isi Thumbnail Wisata"
+                                            name="thumbnail" accept="image/*" placeholder="Isi Thumbnail Berita"
                                             onchange="showPreview(event);" id="file-ip-1">
                                     </div>
                                     <div class="col-md-3 position-relative">
@@ -107,7 +106,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-12">
-                                        <label for="validationCustom01" class="form-label ">Isi Wisata<span
+                                        <label for="validationCustom01" class="form-label ">Isi Berita<span
                                                 class="text-danger">*</span></label>
                                         <textarea class="ckeditor form-control" name="berita" required>{{ old('berita', $wisata->berita) }}</textarea>
                                     </div>

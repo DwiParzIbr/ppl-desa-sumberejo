@@ -170,34 +170,42 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
                 content: "Website Desa Sumber Rejo";
@@ -245,10 +253,7 @@
                 animation: none;
             }
 
-            @keyframes sequencePopup {
-
-
-            }
+            @keyframes sequencePopup {}
 
             .typewriter::before {
                 content: "Selamat Datang!";
@@ -297,33 +302,93 @@
             <h2 style="color:rgb(7, 102, 173);"><b>Visi</b></h2>
             <hr style="border: 1px solid rgb(7, 102, 173);
                     border-radius: 5px;">
-            <p>Visi merupakan pandangan jangka panjang atau cita-cita dari suatu organisasi. Ini adalah gambaran ideal
+            <p style="text-align: justify">Visi merupakan pandangan jangka panjang atau cita-cita dari suatu organisasi. Ini adalah gambaran ideal
                 tentang masa depan yang diinginkan atau tujuan akhir yang ingin dicapai. Visi menggambarkan bagaimana
                 organisasi ingin dilihat atau diakui oleh dunia di masa yang akan datang. Ini biasanya berisi pernyataan
-                singkat, inspirasional, dan ambisius yang memberikan arah dan semangat bagi seluruh anggota organisasi.
-            </p>
+                singkat, inspirasional, dan ambisius yang memberikan arah dan semangat bagi seluruh anggota organisasi. Visi
+                menjadi panduan utama untuk membimbing kebijakan dan tindakan pembangunan desa. Visi yang jelas membantu
+                memotivasi masyarakat dan pemerintah desa untuk bekerja menuju tujuan bersama.</p>
+
             <p><b>Visi Desa Sumber Rejo 2023</b></p>
-            <p>Terwujudnya masyarakat desa Sumber Rejo yang berakhlak mulia, sejahtera dan bermartabat dalam naungan
-                Pemerintah Desa yang demokratis dan amanah.
+            <blockquote>
+                <p style="font-style: italic;">Terwujudnya&nbsp;Masyarakat Desa Sumber Rejo Yang Agamis, Maju Cerdas Dan Bermartabat (Bersih, Makmur, Tertata, Hebat)</p>
+                </blockquote>
+
             </p>
             <h2 style="color:rgb(7, 102, 173);"><b>Misi</b></h2>
             <hr style="border: 1px solid rgb(7, 102, 173);
             border-radius: 5px;">
-            <p>Misi adalah pernyataan tentang tujuan inti organisasi, fokus operasional, dan alasan eksistensinya. Ini
+            <p style="text-align: justify">Misi adalah pernyataan tentang tujuan inti organisasi, fokus operasional, dan alasan eksistensinya. Ini
                 menjelaskan apa yang ingin dicapai organisasi dalam jangka pendek atau menengah, dan bagaimana organisasi
                 tersebut berfungsi untuk mencapainya. Misi membantu dalam mengidentifikasi peran organisasi, target pasar,
-                dan nilai yang ingin dihadirkan.
-            </p>
+                dan nilai yang ingin dihadirkan.&nbsp;Misi memberikan kerangka kerja operasional yang lebih spesifik untuk
+                mencapai visi. Misi desa mencakup berbagai aspek, seperti pengembangan ekonomi, pendidikan, kesehatan,
+                infrastruktur, dan perlindungan lingkungan.</p>
             <p><b>Misi Desa Sumber Rejo 2023</b></p>
-            <p>1. Meningkatkan kualitas kehidupan beragama, sosial budaya dan ketentraman masyarakat.
+            <blockquote>
+                <p style="font-style: italic;">Meningkatkan 4 aspek utama yakni dalam Pemerintahan desa, pembangunan desa, pembinaan desa dan pemberdayaan desa.</p>
+                </blockquote>
+
             </p>
-            <p>2. Meningkatkan kualitas pendidikan, kesehatan dan sumberdaya manusia.
-            </p>
-            <p>3. Meningkatkan pembangunan ekonomi pedesaan, pariwisata dan kesejahteraan masyarakat.
-            </p>
-            <p>4. Meningkatkan kualitas dan profesionalisme aparatur dalam tata kelola pemerintahan, pembangunan dan
-                pelayanan kepada masyarakat.
-            </p>
+            <h5 style="color:rgb(7, 102, 173);"><b>Pemerintahan Desa</b></h5>
+
+            <ol style="text-align: justify">
+                <li>Mewujudkan masyarakat yang agamis dengan memakmurkan&nbsp; masjid di awali dengan mengajak aparatur desa
+                    dan bpd sebagai penggerak untuk memakmurkan&nbsp; mushola dan masjid yang ada di lingkungannya desa
+                    sumber rejo</li>
+                <li>Menyelengarakan pemerintahan yang bersih, transparan dan mengutamakan musyawarah mufakat.</li>
+                <li>Penyelenggaraan pemerintah desa yang transparan, adil, cepat, tepat waktu, tepat guna, tepat mutu dan
+                    tepat sasaran (4t) sesuai dengan payung hukum dan petunjuk pelaksanaan serta petunjuk teknis.</li>
+                <li>Mengedepankan azaz musyawarah dan mufakat dalam segala kegiatan perencanaan pembangunan desa.</li>
+                <li>Memberikan pelayanan terbaik terhadap masyarakat dengan mutu pelayanan &nbsp;6 s :</li>
+                <ul>
+                    <li>Senyum</li>
+                    <li>Salam</li>
+                    <li>Sapa</li>
+                    <li>Sopan</li>
+                    <li>Santun</li>
+                    <li>Selesai dengan sempurna (maksimal)</li>
+                </ul>
+                <li>Membentuk desa yang berkarakter melalui program pembagunan desa sebagai ikon desa seperti pembangunan
+                    gapura desa pada setiap gang-gang yang ada di desa, pemerintah dan remaja sebagai tanda jati diri desa,
+                    menggalakan serta meningkatkan program pembinaan kegiatan siskamling dalam menciptakan karakter desa
+                    yang aman dan nyaman dengan kerja sama antar lembaga maupun lintas sektor yang membidangi</li>
+            </ol>
+
+            <h5 style="color:rgb(7, 102, 173);"><b>Pembangunan Desa</b></h5>
+
+
+            <ol style="text-align: justify">
+                <li>Melanjutkan program pembangunan kepala desa sebelumnya, seperti kegiatan pembangunan pam desa, jut,
+                    jalan pemukiman, desa wisata, pembangunan fasilitas publik dll. Yang tercantum dalam rpjmdes tahun
+                    2022-2028</li>
+            </ol>
+
+            <h5 style="color:rgb(7, 102, 173);"><b>Pembinaan Desa</b></h5>
+
+
+            <ol style="text-align: justify">
+                <li>Menata dan membina serta kaderisasi program kelompok rukun kematian (rukem) yang ada di desa</li>
+                <li>Mengadakan pelatihan atau kursus yang bekerjasama dengan dinas keternagakerjaan (disnaker)</li>
+                <li>Mengelola potensi-potensi wisata air terjun yang belum dikelola dengan baik</li>
+            </ol>
+
+
+            <h5 style="color:rgb(7, 102, 173);"><b>Pemberdayaan Desa</b></h5>
+
+
+            <ol style="text-align: justify">
+                <li>Mengisi dengan kegiatan keagamaan dalam wujud budaya cinta sunah nabi muhamad saw sebagai mana lazimnya
+                    risalah ahlussunnah waljamaah adalah komunitas muslim yang selalu berpedoman pada sunah nabi muhammad
+                    saw seperti memberdayakan kelompok pengajian yang sudah ada dengan kegiatan-kegiatan islami dan
+                    kegiatan-kegiatan ibadah lainnya seperti peringatan hari besar islam, seni budaya, albarjanji, manakib,
+                    seni sholawat maupun maulid diba&rsquo; dan budaya kesunahan ahlussunnah waljamaah lainnya.</li>
+                <li>Pemberdayaan pemuda dan pemudi dibawahi oleh karang taruna desa sebahai ujung tombak kepemudaan dalam
+                    menggali sumber pendapatan asli desa (pad) melalui potensi wisata yang ada di desa, serta kepedulian
+                    jiwa sosial (program donor darah untuk masyarakat yang membutuhkan dan lain-lain).</li>
+                <li>Pengeembangan ekonomi masyarakat melauli usaha berbasis keluarga bekerja sama dengan badan usaha milik
+                    desa (bumdes)</li>
+            </ol>
         </div>
     </div>
 @endsection

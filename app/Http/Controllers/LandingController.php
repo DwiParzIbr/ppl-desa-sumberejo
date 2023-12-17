@@ -101,6 +101,11 @@ class LandingController extends Controller
     {
         return view('landing.wisatadesa', [
             'active' => 'index',
+            'wisatas' => Wisata::orderBy('created_at', 'desc')
+                ->filter(request(['search']))
+                ->paginate(10)
+                ->withQueryString(),
+            'categories' => Kategori::get(),
         ]);
     }
 
@@ -139,18 +144,8 @@ class LandingController extends Controller
             'categories' => Kategori::get(),
         ]);
     }
-    //----------
-    public function wisataadesa()
-    {
-        return view('landing.wisatadesa', [
-            'active' => 'index',
-            'wisatas' => Wisata::orderBy('created_at', 'desc')
-                ->filter(request(['search']))
-                ->paginate(10)
-                ->withQueryString(),
-            'categories' => Kategori::get(),
-        ]);
-    }
+    //-------------
+
     //-------------
 
     public function beritadesa_cat(Kategori $category)

@@ -15,9 +15,7 @@ class WisataPolicy
     {
         // Logika izin untuk melihat banyak model (Wisata)
         // Misalnya, hanya admin yang dapat melihat semua wisata
-        return $user->isAdmin()
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk melihat wisata.');
+
     }
 
     /**
@@ -27,9 +25,7 @@ class WisataPolicy
     {
         // Logika izin untuk melihat satu model (Wisata)
         // Misalnya, hanya admin atau pemilik wisata yang dapat melihat
-        return $user->isAdmin() || $user->id === $wisata->user_id
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk melihat wisata ini.');
+
     }
 
     /**
@@ -39,9 +35,7 @@ class WisataPolicy
     {
         // Logika izin untuk membuat model (Wisata)
         // Misalnya, hanya user yang dapat membuat wisata
-        return $user->isUser()
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk membuat wisata.');
+
     }
 
     /**
@@ -51,9 +45,8 @@ class WisataPolicy
     {
         // Logika izin untuk memperbarui model (Wisata)
         // Misalnya, hanya admin atau pemilik wisata yang dapat memperbarui
-        return $user->isAdmin() || $user->id === $wisata->user_id
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk memperbarui wisata ini.');
+
+
     }
 
     /**
@@ -63,9 +56,7 @@ class WisataPolicy
     {
         // Logika izin untuk menghapus model (Wisata)
         // Misalnya, hanya admin atau pemilik wisata yang dapat menghapus
-        return $user->isAdmin() || $user->id === $wisata->user_id
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk menghapus wisata ini.');
+
     }
 
     /**
@@ -75,9 +66,7 @@ class WisataPolicy
     {
         // Logika izin untuk mengembalikan model (Wisata) yang dihapus
         // Misalnya, hanya admin yang dapat mengembalikan
-        return $user->isAdmin()
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk mengembalikan wisata ini.');
+
     }
 
     /**
@@ -87,8 +76,6 @@ class WisataPolicy
     {
         // Logika izin untuk menghapus permanen model (Wisata)
         // Misalnya, hanya admin yang dapat menghapus permanen
-        return $user->isAdmin()
-            ? Response::allow()
-            : Response::deny('Anda tidak memiliki izin untuk menghapus permanen wisata ini.');
+        
     }
 }

@@ -17,15 +17,16 @@ class WisataController extends Controller
     /**
      * Display a listing of the resource.
      */
-    
+
     public function index()
     {
         return view('dashboard.wisata.index', [
             'active' => 'wisata',
             'wisatas' => Wisata::orderBy('judul', 'desc')
                 ->filter(request(['search']))
-                ->get(),
+                ->paginate(10), // Ganti 10 dengan jumlah item yang ingin Anda tampilkan per halaman
         ]);
+
     }
 
     /**
@@ -81,8 +82,6 @@ class WisataController extends Controller
      */
     public function update(UpdateWisataRequest $request, Wisata $wisata)
     {
-        $validated = $request->validated();
-
         if ($request->thumbnail == null) {
             $validated = $request->validated();
             $validated['thumbnail'] = $wisata->thumbnail;
@@ -95,8 +94,10 @@ class WisataController extends Controller
             $validated['thumbnail'] = $img;
             Wisata::where('id', $wisata->id)->update($validated);
         }
-        return redirect('/dashboard/wisata')->with('success', 'Wisata telah diubah!');
+        return redirect('/dashboard/news')->with('success', 'Berita telah diubah!');
     }
+
+
 
     /**
      * Remove the specified resource from storage.

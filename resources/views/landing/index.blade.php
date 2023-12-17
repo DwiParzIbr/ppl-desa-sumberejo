@@ -438,7 +438,7 @@
                             <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)" >
                                 <div class="card-body">
                                     <h4 class="card-title">Jumlah KK</h4>
-                                    <h1 class="fw-bold mb-0">255</h1>
+                                    <h1 class="fw-bold mb-0">574</h1>
                                     {{-- <a href="/demografi-desa" class="stretched-link"></a> --}}
                                 </div>
                             </div>
@@ -473,6 +473,14 @@
                                 <div class="card-body">
                                     <h4 class="card-title">Luas Wilayah</h4>
                                     <h1 class="fw-bold mb-0">398 m2.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="card text-white bg-success bg-gradient h-100" data-bss-hover-animate="pulse" style="color: rgb(7, 102, 173)">
+                                <div class="card-body">
+                                    <h4 class="card-title">Jumlah Penduduk</h4>
+                                    <h1 class="fw-bold mb-0">1.842</h1>
                                 </div>
                             </div>
                         </div>

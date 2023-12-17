@@ -170,34 +170,42 @@
             79% {
                 content: "Website Desa Su";
             }
+
             80%,
             82% {
                 content: "Website Desa Sum";
             }
+
             83%,
             85% {
                 content: "Website Desa Sumb";
             }
+
             86%,
-            87%{
+            87% {
                 content: "Website Desa Sumbe";
             }
+
             88%,
-            90%{
+            90% {
                 content: "Website Desa Sumber";
             }
+
             91%,
-            93%{
+            93% {
                 content: "Website Desa Sumber R";
             }
+
             94%,
-            95%{
+            95% {
                 content: "Website Desa Sumber Re";
             }
+
             96%,
-            97%{
+            97% {
                 content: "Website Desa Sumber Rej";
             }
+
             98%,
             100% {
                 content: "Website Desa Sumber Rejo";
@@ -285,34 +293,93 @@
             <h2 style="color:rgb(7, 102, 173);"><b>Demografi Desa Sumber Rejo</b></h2>
             <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
-            <p style="text-align: justify">
-                <b>Demografi desa</b> adalah cabang dari ilmu demografi yang khusus mempelajari tentang populasi manusia di desa
-                atau pemukiman kecil. Ini berfokus pada analisis statistik dan karakteristik penduduk desa, termasuk
-                pertumbuhan populasi, distribusi usia, jenis kelamin, tingkat kelahiran dan kematian, migrasi, dan aspek
-                demografi lainnya yang mempengaruhi struktur populasi di desa.
-                <br><br>
-                Desa merupakan suatu subdisiplin yang mendalam dalam ilmu demografi yang secara spesifik meneliti
-                dinamika dan karakteristik populasi manusia di lingkungan desa atau pemukiman kecil. Pendekatan ini menganalisis
-                secara rinci berbagai aspek demografis untuk memberikan pemahaman menyeluruh tentang struktur populasi di wilayah pedesaan.
-                <br>
-                Analisis statistik yang dilakukan dalam demografi desa mencakup beragam faktor, mulai dari pertumbuhan populasi
-                yang mengindikasikan dinamika perkembangan masyarakat desa hingga distribusi usia yang memaparkan profil demografis
-                penduduk desa dengan detail. Selain itu, disiplin ini meneliti perbandingan jenis kelamin di desa untuk memahami
-                peran gender dalam konteks tersebut, serta tingkat kelahiran dan kematian yang mencerminkan pola reproduksi dan kesehatan masyarakat.
-                <br><br>
-                Desa juga memperhatikan fenomena migrasi, melibatkan pergerakan penduduk ke dan dari desa, yang dapat memiliki
-                dampak signifikan terhadap struktur dan karakteristik populasi. Aspek-aspek demografi lainnya yang menjadi fokus
-                kajian melibatkan faktor-faktor seperti tingkat pendidikan, lapangan pekerjaan, dan distribusi rumah tangga, memberikan
-                gambaran holistik tentang kehidupan sosial dan ekonomi di desa.
-                <br>
-                Melalui analisis yang mendalam terhadap berbagai dimensi demografis ini, demografi desa bukan hanya memberikan pemahaman
-                tentang populasi secara kuantitatif, tetapi juga memberikan wawasan tentang kompleksitas sosial dan dinamika perkembangan
-                di wilayah pedesaan. Hasil-hasil penelitian demografi desa sering kali menjadi dasar penting bagi perumusan kebijakan
-                pembangunan yang sesuai dengan realitas lokal dan mendukung upaya peningkatan kesejahteraan masyarakat desa.
+            <blockquote>
+                <p style="font-style: italic;">Demografi desa adalah cabang dari ilmu demografi yang khusus mempelajari tentang populasi manusia di desa
+                    atau pemukiman kecil. Ini berfokus pada analisis statistik dan karakteristik penduduk desa, termasuk
+                    pertumbuhan populasi, distribusi usia, jenis kelamin, tingkat kelahiran dan kematian, migrasi, dan aspek
+                    demografi lainnya yang mempengaruhi struktur populasi di desa.</p>
+            </blockquote>
+
+            <p style="text-align: justify">Penduduk Desa Sumber Rejo mayoritas berasal dari daerah <em>Jawa</em>, sehingga
+                suku Jawa
+                dominan ada sebagai warna kehidupan di Desa, mulai dari bahasa keseharian hingga tradisi yang ada bnayak
+                dipengaruhi oleh suku Jawa. Sejak terbentuknya Desa Sumber Rejo masyarakat mempunyai tradisi-tradisi yang
+                dilakukan sampai saat ini seperti musyawarah untuk mufakat, gotong royong dan kearifan lokal yang menjadi
+                ciri khas Desa Sumber Rejo, hal ini menjadi nilai lebih bagi keberlangsungan tatanan masyarakat Desa, karena
+                banyak hal dilakukan secara bersama dan nilai kerukunan antar menjadi lebih meningkat. Kebiasaan gotong
+                royong kerap dilakukan dalam berbagai hal, mulai dari prosesi pernikahan, kematian, kelahiran maupun dalam
+                usaha perkebunan (pembuatan jembatan, pembuatan jalan dan lain lain).&nbsp;</p>
+
+            <p style="text-align: justify">Hingga Tahun 2022 jumlah penduduk Desa Sumber Rejo telah banyak berkembang, dari
+                data administrasi Desa,
+                jumlah penduduk Desa Sumber Rejo adalah <em>1.842</em>&nbsp; jiwa, dimana penduduk jenis kelamin<em>
+                    laki-laki berjumlah 955 jiwa</em> dan penduduk jenis kelamin <em>perempuan 876 jiwa</em> dengan
+                <em>jumlah kepala keluarga sebanyak 574 KK</em>, yang terbagi kedalam 3 wilayah Dusun dan terdiri dari 6
+                Rukun Tetangga (RT). Jumlah jiwa yang cukup banyak untuk wilayah Desa menjadi bekal positif bagi
+                keberlangsungan Desa Sumber Rejo, karena jumlah penduduk tersebut turut pula dibarengi dengan peningkatan
+                Sumber Daya Manusia Nya sehingga serta merta diharapkan dapat memajukan Desa. &nbsp;Berikut adalah rincian
+                tabel potensi kependudukan&nbsp; Desa Sumber Rejo Kecamatan Hulu Palik Kabupaten Bengkulu Utara:
             </p>
+
+
             <p><b>Kondisi Demografi</b></p>
-            <p>Jumlah Kepala Keluarga: 214 KK. (2023)
+            <p>Jumlah Kepala Keluarga: 574 KK. (2022)
             </p>
+            <p>Jml. Penduduk : 1.842 (DKCS 2022)</p>
+            <div class="container">
+                <h3 style="color:rgb(7, 102, 173);"><b>Demografi Desa Sumber Rejo</b></h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>DUSUN</th>
+                            <th>JUMLAH KK</th>
+                            <th>LAKI-LAKI</th>
+                            <th>PEREMPUAN</th>
+                            <th>JUMLAH (L + P)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SATU</td>
+                            <td>183</td>
+                            <td>302</td>
+                            <td>284</td>
+                            <td>586</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>DUa</td>
+                            <td>179</td>
+                            <td>283</td>
+                            <td>299</td>
+                            <td>582</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>TIGA</td>
+                            <td>211</td>
+                            <td>357</td>
+                            <td>330</td>
+                            <td>687</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">JUMLAH</td>
+                            <td>574</td>
+                            <td>942</td>
+                            <td>913</td>
+                            <td>1,855</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <p><em>Sumber: Buku Induk Pemerintah Desa Sumber Rejo Tahun 2022</em></p>
+
+            <p>&nbsp;</p>
+
         </div>
     </div>
 @endsection

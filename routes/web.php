@@ -48,6 +48,12 @@ Route::get('/wisata-desa', [LandingController::class, 'wisatadesa']);
 Route::get('/wisata-desa/read/{wisata}', [LandingController::class, 'wisataadesa_detail']);
 Route::get('/wisata-desa/category/{category}', [LandingController::class, 'wisataadesa_cat']);
 Route::get('/wisata-desa/category/read/{wisata}', [LandingController::class, 'wisatadesa_detail']);
+Route::delete('/dashboard/wisata/{wisata}', [WisataController::class, 'destroy'])->name('wisata.destroy');
+Route::put('/dashboard/wisata/{wisata}', [WisataController::class, 'update'])->name('wisata.update');
+
+
+
+
 
 //INFORMASI PUBLIK = BERITA-PENGUMUMAN-UNDUHAN-PRODUKHUKUM
 Route::get('/berita-desa', [LandingController::class, 'beritadesa']);
@@ -84,6 +90,7 @@ Route::resource('/dashboard/announce', AnnounceController::class)->middleware('a
 
 //MANAJEMEN WISATA
 Route::resource('/dashboard/wisata', WisataController::class)->middleware('auth');
+
 
 
 // web.php

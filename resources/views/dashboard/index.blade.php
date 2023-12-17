@@ -458,7 +458,7 @@
                                             <!DOCTYPE svg
                                                 PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                             <div class="p-2 mt-1 mb-1">
-                                                <svg width="70px" height="70px" viewBox="0 0 512 512" version="1.1"
+                                                <svg width="80px" height="60px" viewBox="0 0 512 512" version="1.1"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
                                                 stroke="#ffffff">

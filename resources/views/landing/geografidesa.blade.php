@@ -303,11 +303,12 @@
             <h2 style="color:rgb(7, 102, 173);"><b>Geografi Desa Sumber Rejo</b></h2>
             <hr style="border: 1px solid rgb(87, 142, 206);
             border-radius: 5px;">
-            <p>
+             <blockquote>
+                <p style="font-style: italic;">
                 Geografi desa adalah cabang dari ilmu geografi yang mempelajari tentang aspek-aspek geografis dari suatu
                 desa atau pemukiman kecil. Ini mencakup analisis berbagai elemen fisik dan manusia yang mempengaruhi dan
                 membentuk struktur dan karakteristik suatu desa.
-            </p>
+                </blockquote>
             <p><b>Kondisi Geografi</b></p>
             <p>Tahun Pembentukan: 1969</p>
             <p>Klasifikasi      : SWAKARYA</p>
@@ -317,9 +318,9 @@
                 <strong>Orbitasi</strong></p>
 
                 <ul>
-                    <li>Jarak ke Ibu Kota Kabupaten : 43 km</li>
-                    <li>Jarak ke Ibu Kota Kecamatan : 13 km</li>
-                    <li>Jarak ke Ibu Kota Propinsi : 15 km</li>
+                    <li>Jarak ke Ibu Kota Kecamatan : 15 km</li>
+                    <li>Jarak ke Ibu Kota Kabupaten : 33,7 km</li>
+                    <li>Jarak ke Ibu Kota Propinsi : 62,6 km</li>
                 </ul>
 
                 <p><strong>Letak Geografis</strong></p>
@@ -327,17 +328,17 @@
                 <ul>
                     <li>Desa Pematang Johar secara geografis terletak pada ketinggian &not;+ 0 &ndash; 25 m (dari Permukaan laut)</li>
                     <li>Curah hujan : 0 - 30 mm / tahun</li>
-                    <li>Suhu rata &ndash; rata : 24 0C - 310 C</li>
+                    <li>Suhu rata &ndash; rata : 24°C - 31°C</li>
                     <li>Bentangan Wilayah : Dataran rendah</li>
                 </ul>
 
                 <p><strong>Batas Wilayah</strong></p>
 
                 <ul>
-                    <li>Sebelah Utara berbatasan dengan Sei Seruwei Kelurahan Sei Mati Kecamatan Medan Labuhan Kota Medan</li>
-                    <li>Sebelah Selatan berbatasan dengan Desa Saentis dan Desa Sampali Kecamatan Percut Sei Tuan Kabupaten Deli Serdang.</li>
-                    <li>Sebelah Timur berbatasan dengan Desa Tanjung Selamat Kec. Percut Sei Tuan</li>
-                    <li>Sebelah Barat berbatasan dengan Kel.Tangkahan Kecamatan Medan Labuhan Kota Medan dan Kelurahan Mabar Kec. Medan Deli&nbsp;Kota&nbsp;Medan.</li>
+                    <li>Sebelah Utara berbatasan dengan Kabupaten Mukomuko.</li>
+                    <li>Sebelah Selatan berbatasan dengan Kabupaten Bengkulu Tengah.</li>
+                    <li>Sebelah Timur berbatasan dengan Kabupaten Lebong dan Rejang Lebong</li>
+                    <li>Sebelah Barat berbatasan dengan Samudra Hindia</li>
                 </ul>
         </div>
     </div>

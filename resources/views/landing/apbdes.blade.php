@@ -315,10 +315,32 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
+                                <td><b> Surat Pengantar APBDes</td>
+                                <td><b>2022-2023</td>
+                                <td>Anggaran APBD Desa Sumber Rejo 2022-2023</td>
+                                <td> <a href="https://docs.google.com/document/d/1j03ZgVboc6lMpiJkZzu4xjuUgzK1FqHo/edit?usp=sharing&ouid=105170204787296885411&rtpof=true&sd=true" target="_blank" class="btn btn-success" type="button"
+                                        data-bss-hover-animate="tada"><svg width="16px" height="16px" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                            </g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <g id="Interface / Download">
+                                                    <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                                        stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </g>
+                                            </g>
+                                        </svg>Download
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
                                 <td><b> APBDES Sumber Rejo</td>
                                 <td><b>2022-2023</td>
                                 <td>Anggaran APBD Desa Sumber Rejo 2022-2023</td>
-                                <td> <a href="/dashboard/profile" class="btn btn-success" type="button"
+                                <td> <a href="/dashboard/profil" target="_blank" class="btn btn-success" type="button"
                                         data-bss-hover-animate="tada"><svg width="16px" height="16px" viewBox="0 0 24 24"
                                             fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
                                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

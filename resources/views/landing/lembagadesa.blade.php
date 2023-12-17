@@ -322,7 +322,7 @@
                                 <th scope="row">3</th>
                                 <td><b>SEKRETARIS BPD</b></td>
                                 <td>SITI MARYAM</td>
-                                <td>KOMTOL</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
